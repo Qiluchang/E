@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="../lib/mui-master/dist/js/mui.min.js"></script>
+    <link href="../lib/mui-master/dist/css/mui.min.css" rel="stylesheet"/>
+	<script src="../lib/angular-1.5.2/angular.min.js"></script>
+    <script type="text/javascript" charset="UTF-8">
+      	mui.init();
+    </script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+	<!--标题部分-->
+<header id="header" class="mui-bar mui-bar-nav" style="background: #00a666;">
+	<h1 class="mui-title" style="color: #FFFFFF;">欢迎光临</h1>
+	<a class="mui-icon  mui-pull-right" style="color: #FFFFFF;font-size: 5px;margin-top: 4px;">跳过</a>
+</header>
+<!--选择分会部分-->
+<form class="mui-input-group" style="margin-top: 45px;">
+	<p style="text-align: center;">选择加入分会</p>
+	<h4>上海分会<a class="mui-pull-right"><p style="font-size: 5px;">选择其他分会</p></a></h4>
+	
+	<table class="mui-row">
+		<tbody ng-repeat="x in names">
+		<tr>
+			<td class="mui-col-xs-4 "><button style="margin-top: 5px;">{{x.fh1}}</button></td>
+			<td class="mui-col-xs-4 "><button style="margin-top: 5px;">{{x.fh2}}</button></td>
+			<td class="mui-col-xs-4 "><button style="margin-top: 5px;">{{x.fh3}}</button></td>
+			<td class="mui-col-xs-4 "><button style="margin-top: 5px;">{{x.fh4}}</button></td>
+		</tr>
+		</tbody>
+	</table> 
+	<div style="height: 20px;"></div>
+</form>
+<!--间隙-->
+<div style="height: 10px;"></div>
+<!--感兴趣的版块-->
+<ul class="mui-table-view">
+	<li class="mui-table-view-cell mui-media">
+		<p style="font-size: 10px;padding-bottom: 10px">可能感兴趣的版块</p>
+		<a href="javascript:;">
+			<img class="mui-media-object mui-pull-left" src="ZJ图片/wuzheng1%20.png">
+			<p style="margin-top: 10px;">即享<p>
+			<button type="button" style="font-size: 1px;padding: 1px;margin-top: -30px;" class="mui-btn mui-btn-success mui-btn-outlined mui-pull-right">+关注</button>
+		</a>
+	</li>
+	<li class="mui-table-view-cell mui-media">
+		<a href="javascript:;">
+			<img class="mui-media-object mui-pull-left" src="ZJ图片/wuzheng2.png">
+			<p style="margin-top: 10px;">房车e族<p>
+			<p class="mui-pull-right" style="margin-top: -23px;color: blue;"></p>
+			<button type="button" style="font-size: 1px;padding: 1px;" class="mui-btn mui-btn-success mui-btn-outlined mui-pull-right">+关注</button>
+		</a>
+	</li>
+	<li class="mui-table-view-cell mui-media">
+		<a href="javascript:;">
+			<img class="mui-media-object mui-pull-left" src="ZJ图片/wuzheng3.png">
+			<p style="margin-top: 10px;">福特俱乐部<p>
+			<p class="mui-pull-right" style="margin-top: -23px;color: blue;"></p>
+			<button type="button" style="font-size: 1px;padding: 1px;" class="mui-btn mui-btn-success mui-btn-outlined mui-pull-right">+关注</button>
+		</a>
+	</li>
+	<li class="mui-table-view-cell mui-media">
+		<a href="javascript:;">
+			<img class="mui-media-object mui-pull-left" src="ZJ图片/wuxitxl.png">
+			<p style="margin-top: 10px;">天下美食<p>
+			<p class="mui-pull-right" style="margin-top: -23px;color: blue;"></p>
+			<button type="button" style="font-size: 1px;padding: 1px;" class="mui-btn mui-btn-success mui-btn-outlined mui-pull-right">+关注</button>
+		</a>
+	</li>
+	<li style="height: 60px;"></li>
+</ul>
+<script>
+	var app = angular.module("myApp", []);
+		app.controller("myCtrl", function($scope, $http) {
+		   $http.get("aaa.php")
+		   .success(function (response) {
+		   		$scope.names = response.employees;
+		   		
+		   });
+		});
+</script>
+</body>
+</html>

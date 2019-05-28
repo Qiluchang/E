@@ -1,0 +1,66 @@
+*{margin: 0; padding: 0;}
+header,nav{height: 50px;}
+
+/*左侧div占890*/
+#left{float: left; width: 890px; border: 1px solid #D8E2EE; height: 1504px;}
+/*右侧div占290*/
+#right{float: right; width: 290px; border: 1px solid #D8E2EE;}
+/*中间间距20*/
+
+#left .list .top{background: #F8FAF9; height: 45px}
+#left .list .title {line-height: 45px; font-size: 18px; color: #666867; text-indent: 1em;}
+
+#left .list .text .img{border: 1px solid #E3E5E4; float: left; margin-top: 15px; margin-left: 15px; margin-right: 20px;}
+
+#left .list .text .right_div {float: left; width: 600px;}
+
+#left .list .text .right_div .div_h4{margin-top: 23px;}
+
+#left .list .text .right_div .div_h4 .div_a{color: black; text-decoration:none;}
+
+#left .list .text .right_div .div_p{font-size: 14px; text-indent: 1em; line-height: 25px;}
+#left .list .text .right_div .div_p .div_a{color: #9A9A9A; text-decoration:none;}
+
+.start_btn{margin-left: 275px;}
+
+.stice{width: 33px; height: 21px; border-radius: 2px; font-size: 8px; text-indent: -8px; line-height: 9px;}
+
+.icon{font-size: 20px; color: #D8D8D8;}
+
+.hr{width: 95%; margin: 20px auto 8px;}
+
+
+/*以下是推荐新闻*/
+#right .side .top{background: #F8FAF9; height: 30px}
+
+#nominate{float: right; width: 290px; border: 1px solid #D8E2EE; margin-top: 15px;}
+
+#nominate .side .top{background: #F8FAF9; height: 30px}
+#nominate .side .title {line-height: 30px; font-size: 14px; text-indent: 1em; color: #666867;}
+
+ul,li{list-style: none;}
+
+#nominate .side ul{margin:10px auto 20px; width: 270px;}
+
+#nominate .side ul li {overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+
+#nominate .side ul li img {margin-left: 3px;}
+
+#nominate .side ul li a {line-height: 30px; margin-left: 5px; color: #666867; text-decoration:none;}
+
+#right .side .title {line-height: 30px; font-size: 14px; text-indent: 1em; color: #666867;}
+
+
+/*广告*/
+#advert{width: 290px; height: 335px; margin-top: 15px; float: right;}
+
+/*折叠菜单*/
+/**{font-family:'微软雅黑';font-size:12px;color:#626262;}*/
+dl,dt,dd{display:block;margin:0;}
+
+/*left*/
+.leftsidebar_box dt{padding-left:35px;padding-right:10px;
+    background-repeat:no-repeat;background-position:10px center;color:#666867;font-size:14px;position:relative;line-height:40px;cursor:pointer;}
+.leftsidebar_box dd{background-color:#FFFFFF;padding-left:35px;}
+.leftsidebar_box dd a{color: #666867;line-height:20px; text-decoration:none;}
+.leftsidebar_box dt img{position:absolute;left:15px;top:16px;}

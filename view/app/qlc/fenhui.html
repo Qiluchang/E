@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>分会</title>
+    <script src="../lib/mui-master/dist/js/mui.min.js"></script>
+    <link href="../lib/mui-master/dist/css/mui.min.css" rel="stylesheet"/>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<!--	<link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">-->
+<!--	<script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>-->
+	<script src="../lib/angular-1.5.2/angular.min.js"></script>
+    <script type="text/javascript" charset="UTF-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+<!--滚动导航栏-->
+<div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted" >
+    <div id="dh" class="mui-scroll" style="background: #00a666;color: #FFFFFF;">
+        <p class="mui-control-item mui-active">
+            推荐
+        </p>
+        <p class="mui-control-item">
+            官方
+        </p>
+        <p class="mui-control-item">
+            无锡
+        </p>
+        <p class="mui-control-item">
+            新闻
+        </p>
+        <p class="mui-control-item">
+            服务
+        </p>
+        <p class="mui-control-item">
+            即享
+        </p>
+         <p class="mui-control-item">
+            路书
+        </p>
+         <p class="mui-control-item">
+            商城
+        </p>
+         <p class="mui-control-item">
+            +
+        </p>
+    </div>
+</div>
+<!--间隙-->
+<div style="height: 10px;"></div>
+<!--分会标题-->
+<form class="mui-input-group">
+    <div class="mui-input-row" style="height: 25px;text-align: center;">
+       <p style="font-size: 1px;">点击选择其它城市<span class="mui-icon mui-icon-location" style="font-size: 5px;"></span></p>
+ 
+    </div>
+    <div class="mui-input-row" style="height: 90px;margin-left: 10px;margin-right: 10px;">
+    	<div style="margin-top: 15px;">
+       		<p style="font-size: 25px;color: red;"><b>无锡分会&nbsp;</b><span style="font-size: 10px;" class="mui-icon mui-icon-personadd">152</span></p>
+       		<button type="button" class="mui-btn mui-btn-outlined" style="outline: none;width: 60px;height: 25px;padding: 1px 0 0;margin-top: -30px;margin-right: 70px;" >+ 关注</button>
+       		<button type="button" class="mui-btn mui-btn-success" style="outline: none;width: 60px;height: 25px;padding: 1px 0 0;color: #FFFFFF;margin-top: -30px;background: #00a666;" onclick="myFunction()" >+ 加入</button>
+       	</div>
+       	<div>
+       		<p style="color: #000000;">&nbsp;<span class="mui-icon mui-icon-weixin"></span>版主：大宝,857405057,大漠孤烟</p>
+       	</div>
+    </div>  
+</form>
+<!--间隙-->
+<div style="height: 10px;"></div>
+<!--一图-->
+<form class="mui-input-group">
+    <div class="mui-input-row" style="height: 20%;margin-left: 10px;margin-right: 10px;">
+    	<a href="javascript:;" >
+			<img class="mui-media-object mui-pull-right" style="width: 90px;height: 90px;margin-top: 10px;" src="ZJ图片/wuxitxl.png">
+			<div class="mui-media-body" style="margin-top: 10px;">
+				<h1 style="font-size: 20px;color: #000000;">无锡分会通讯录<button  style="width: 40px;height: 15px;padding: 1px 0 0;font-size: 2px;background: #F78411;color: #FFFFFF;">置顶 I</button></h1>
+				<p style="font-size: 10px;width: 80%;height: 5%;text-overflow: ellipsis;">为本地会员相互间查询及联系方便,以及给外地会员来苏来锡能找到协助。故,开此通讯录,方式如下,大家可以自愿发布个人信息在此。</p>
+			</div>
+		</a>
+		<div >
+			<img src="ZJ图片/zijiatx.png" style="width: 20px;height: 20px;border-radius: 15px;" />
+			<span>money</span>
+			<button type="button" style="width: 40px;height: 18px;padding: 1px;font-size: 1px;" class=" mui-btn-success mui-btn-outlined">+关注</button>
+			<!--<p style="margin-top: -30px;" class="mui-pull-right">--><span class="mui-icon mui-icon-checkmarkempty mui-pull-right">89</span><!--</p>-->
+			<!--<p style="margin-top: -30px;margin-right: 10px;" class="mui-pull-right">--><span class="mui-icon mui-icon-chat mui-pull-right">18</span><!--</p>-->
+		</div>
+    </div>  
+</form>
+<!--间隙-->
+<div style="height: 10px;"></div>
+<!--三图-->
+<form class="mui-input-group">
+	<div class="mui-input-row" style="height: 20%;">
+	    <div class="mui-table-view-cell mui-media" style="border: none;">
+			<a href="javascript:;" style="text-decoration: none;">
+				<div class="mui-media-body ">
+					<h4>乌镇的昼夜</h4>
+				</div>
+				<div style="text-align: center;">
+				<img style="width: 30%;height: 60%;" class="mui-media-object mui-pull-left" src="ZJ图片/wuzheng1%20.png">
+				<img style="width: 30%;height: 60%;vertical-align: ;"  src="ZJ图片/wuzheng2.png">
+				<img style="width: 30%;height: 60%;" class="mui-media-object mui-pull-right" src="ZJ图片/wuzheng3.png">
+				</div>
+			</a>
+			<div style="margin-top: 20px;">
+				<img src="ZJ图片/zijiatx.png" style="width: 20px;height: 20px;border-radius: 15px;" />
+				<span>捕快</span>
+				<button type="button" style="width: 40px;height: 18px;padding: 1px;font-size: 1px;" class=" mui-btn-success mui-btn-outlined">+关注</button>
+				<span class="mui-icon mui-icon-checkmarkempty mui-pull-right">89</span>
+				<span class="mui-icon mui-icon-chat mui-pull-right">18</span>
+			</div>
+		</div>
+	</div>    
+</form>
+<!--间隙-->
+<div style="height: 10px;"></div>
+<!--广告-->
+<div class="mui-input-row">
+	<img src="ZJ图片/guangao.png" style="width: 100%;height: 100%;" />
+</div>
+<form class="mui-input-group">
+    <div class="mui-input-row" style="height: 20%;margin-left: 10px;margin-right: 10px;">
+    	<a href="javascript:;" >
+			<div class="mui-media-body" style="margin-top: 10px;">
+				<h1 style="font-size: 20px;color: #000000;">无锡雪浪薰衣草即将引来二度盛开</h1>
+				<p style="font-size: 10px;">无锡雪浪山生态景观园微雨无锡山水域旅游度假区，南濒太湖,西临梅梁湖景区，占地面积5000亩，2006年被评为国家3A级旅游景区，由生态景观，历史人文景观和旅游项目三大部分组成，是一个集旅游，休闲，度假，健身，教学于一体的风景区。</p>
+			</div>
+		</a>
+		<div >
+			<img src="ZJ图片/zijiatx.png" style="width: 20px;height: 20px;border-radius: 15px;" />
+			<span>money</span>
+			<button type="button" style="width: 40px;height: 18px;padding: 1px;font-size: 1px;" class=" mui-btn-success mui-btn-outlined">+关注</button>
+			<span class="mui-icon mui-icon-checkmarkempty mui-pull-right">89</span>
+			<span class="mui-icon mui-icon-chat mui-pull-right">18</span>
+		</div>
+    </div>  
+</form>
+<!--间隙-->
+<div style="height: 10px;"></div>
+
+<form class="mui-input-group">
+    <div class="mui-input-row" style="height: 20%;margin-left: 10px;margin-right: 10px;">
+    	<a href="javascript:;" >
+			<img class="mui-media-object mui-pull-right" style="width: 90px;height: 90px;margin-top: 10px;" src="ZJ图片/wuxitxl.png">
+			<div class="mui-media-body" style="margin-top: 10px;">
+				<h1 style="font-size: 20px;color: #000000;">无锡分会国庆穿越太行山之旅</button></h1>
+				<p style="font-size: 10px;width: 80%;height: 50%;">自驾e族无锡分会&无锡汽协：十一国庆穿越太行山-晋善晋美（最美好的时光里，你该走的更远一点）穿越太行山第一天9月29日中午12点芳茂山服务区5车集合：行程600多个公里，住宿河南项城好感动酒店</p>
+			</div>
+		</a>
+		<div style="margin-top: 20px;">
+			<img src="ZJ图片/zijiatx.png" style="width: 20px; border-radius: 15px;" />
+			<span>money</span>
+			<button type="button" style="width: 40px;height: 18px;padding: 1px;font-size: 1px;" class=" mui-btn-success mui-btn-outlined">+关注</button>
+			<span class="mui-icon mui-icon-checkmarkempty mui-pull-right">89</span>
+			<span class="mui-icon mui-icon-chat mui-pull-right">18</span>
+		</div>
+    </div>  
+</form>
+<div style="height: 50px;"></div>
+<!--底部导航栏-->
+ <nav class="mui-bar mui-bar-tab" style="background: #FFFFFF;">
+            <a class="mui-tab-item mui-active">
+                    <span class="mui-icon mui-icon-home"></span>
+                    <span class="mui-tab-label">首页</span>
+            </a>
+            <a class="mui-tab-item">
+                    <span class="mui-icon mui-icon-chatboxes"></span>
+                    <span class="mui-tab-label">社区</span>
+            </a>
+            <a class="mui-tab-item">
+                    <span class="mui-icon mui-icon-star"></span>
+                    <span class="mui-tab-label">关注</span>
+            </a>
+            <a class="mui-tab-item">
+                    <span class="mui-icon mui-icon-contact"></span>
+                    <span class="mui-tab-label">我的</span>
+            </a>
+    </nav>
+</body>
+</html>

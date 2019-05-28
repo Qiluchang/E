@@ -1,0 +1,66 @@
+*{margin: 0; padding: 0;}
+header,nav{height: 50px;}
+
+/*全局宽度1200*/
+#view{width: 1200px; margin: 0 auto;}
+
+/*左侧div*/
+.left{float: left;margin-top: 20px}
+/*右侧div*/
+.right{float: right;margin-top: 20px}
+
+/*面包屑导航*/
+.breadcrumbnav {padding: 8px 15px;margin-bottom: 20px;list-style: none;background-color: none;border-radius: 4px; float: left}
+.breadcrumbnav > li {display: inline-block;}
+.breadcrumbnav > li + li:before {padding: 0 5px;color: #ccc;content: ">\00a0";}
+.breadcrumbnav > .active {color: #777;}
+
+
+/*活动显示主体*/
+#HDbody{width: 1200px;border: 1px solid #D8E2EE;overflow:hidden;float: left;padding: 0 60px}
+#HDbody .top{}
+#HDbody .top .title{}
+#HDbody .top span{}
+#HDbody .topbottom{height: 60px;border-bottom: 1px solid #D8E2EE}
+#HDbody .topbottom .share{margin-top: 10px;border-right: 1px solid #D8E2EE;width: 270px;float: left}
+#HDbody .topbottom .share img{width: 40px;height: 40px}
+#HDbody .topbottom .share a{width: 40px;height: 40px}
+
+#HDbody .topbottom .comment{width: 350px;float: left}
+#HDbody .topbottom .comment span{;;margin-left: 10px;}
+#HDbody .topbottom .comment b{font-size: 30px;color: #ff0000}
+#HDbody .topbottom .comment a{font-size: 40px;margin-left: 10px;}
+
+#HDbody .topbottom .author{float: right;margin-top: 20px}
+#HDbody .topbottom .author button{background: none;border: 1px solid #00a666;color: #00a666;border-radius: 5px;outline: none;}
+
+/*活动显示页图片轮播*/
+#HDbody .TPcarousel{margin-top: 20px;width: 500px;height: 375px;float: left}
+
+/*活动详情*/
+#HDbody .HDdetails{margin: 20px 0 0 20px;float: left;height: 375px;}
+#HDbody .HDdetails p b{color: #ff0000}
+
+/*联系方式*/
+#HDbody .contact{width: 555px;height: 75px;margin-top: 40px}
+#HDbody .contact .phone{width: 350px;background: #00a666;height: 75px;float: left;margin-top: 27px}
+#HDbody .contact .phone img{float: left}
+#HDbody .contact .phone p{color: #FFFFFF;margin-top: 10px}
+#HDbody .contact .phone span{color: #FFFFFF;font-size: 30px;padding-top: -10px}
+
+#HDbody .contact .signup{width: 205px;background: #109361;height: 75px;float: left;text-align: center;margin-top: 27px}
+#HDbody .contact .signup button{background: #109361;font-size: 20px;width: 205px;height: 75px;border: none;outline: none;color: #FFFFFF}
+
+
+ *{ margin:0; padding:0; list-style:none;}
+body{ font-size:12px; color:#666; text-align:left;}
+h1{ text-align:center;}
+
+.lanrenzhijia{ width:1080px; overflow:hidden; margin-top: 20px; background:none;}
+.lanrenzhijia .tab{ overflow:hidden; background:#ccc;}
+.lanrenzhijia .tab a{ display:block; padding:10px 20px; float:left; text-decoration:none; color:#333;}
+.lanrenzhijia .tab a.on{ background:#E64E3F; color:#fff; text-decoration:none;}
+.lanrenzhijia .content{ overflow:hidden; padding:10px;}
+.lanrenzhijia .content li{ display:none;}
+
+

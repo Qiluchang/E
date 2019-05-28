@@ -1,0 +1,23 @@
+#lunkuo{width: 1200px; border: 1px solid #E6F1ED;}
+#center{width: 1090px; margin: auto}
+
+/*大体*/
+#left .list .top{background: #F8FAF9; height: 45px}
+#left .list .title {line-height: 45px; font-size: 18px; color: #666867; text-indent: 1em;}
+
+#left .list .text .img{border: 1px solid #E3E5E4; float: left; margin-top: 15px; margin-left: 15px; margin-right: 20px;}
+
+#left .list .text .right_div {float: left; width: 600px;}
+
+#left .list .text .right_div .div_h4{margin-top: 23px;}
+
+#left .list .text .right_div .div_h4 .div_a{color: black; text-decoration:none;}
+
+#left .list .text .right_div .div_p{font-size: 14px; line-height: 25px; margin-top: 10px;}
+#left .list .text .right_div .div_p .div_a{color: #9A9A9A; text-decoration:none;}
+
+.stice{width: 32px; height: 18px; border-radius: 2px; font-size: 5px; text-indent: -6px; line-height: 7px;}
+
+/*广告*/
+#advert{width: 290px; height: 335px; margin-top: -50px; float: right;}
+

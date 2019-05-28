@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>官方</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../lib/mui-master/dist/css/mui.min.css">
+		<link rel="stylesheet" href="../lib/mui-master/dist/css/mui.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../lib/mui-master/examples/hello-mui/css/app.css" />
+		<!--以下的外部css和js都属于nav-->
+		<link rel="stylesheet" type="text/css" href="../lib/nav/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../lib/nav/css/widget/navigator/navigator.css" />
+		<link rel="stylesheet" type="text/css" href="../lib/nav/css/widget/navigator/navigator.iscroll.css" />
+		<link rel="stylesheet" type="text/css" href="../lib/nav/css/widget/navigator/navigator.default.css" />
+		<link rel="stylesheet" type="text/css" href="../lib/nav/css/widget/navigator/navigator.iscroll.default.css" />
+		<link rel="stylesheet" type="text/css" href="../lib/C/media-list-style.css" />
+		<link rel="stylesheet" href="../lib/bootstrap-3.3.5-dist/css/bootstrap-theme.css"  />
+		<script type="text/javascript" src="../lib/nav/js/zepto.js"></script>
+		<script type="text/javascript" src="../lib/nav/js/zepto.extend.js"></script>
+		<script type="text/javascript" src="../lib/nav/js/zepto.ui.js"></script>
+		<script type="text/javascript" src="../lib/nav/js/zepto.iscroll.js"></script>
+		<script type="text/javascript" src="../lib/nav/js/widget/navigator.js"></script>
+		<script type="text/javascript" src="../lib/nav/js/widget/navigator.iscroll.js"></script>
+	</head>
+	<body>
+	<!--
+    	描述：整个div是nav,div结束则代码结束
+    -->
+	<div id="fix-both">
+	    <ul>
+	    	<!--如果想要首选就加class="cur"-->
+	        <li><a class="cur" href="#">推荐</a></li>
+	        <li><a href="media-list.html">官方</a></li>
+	        <li><a href="#">合肥</a></li>
+	        <li><a href="#">新闻</a></li>
+	        <li><a href="#">服务</a></li>
+	        <li><a href="#">即享</a></li>
+	        <li><a href="#">活动</a></li>
+	        <li><a href="#">汽车赛事</a></li>
+	        <li><a href="#">房车e族</a></li>
+	        <li><a href="#">八卦灌水</a></li>
+	    </ul>
+    	<a class="ui-navigator-fixright" href="#">+</a> <!-- 如果只需要左侧固定，请删除这个a标签 -->
+	</div>
+	<!--nav代码结束-->
+	<!--
+    	描述：每一个ul是一个段落，包括里面的li等
+    -->
+    <ul class="mui-table-view">
+		<li class="mui-table-view-cell mui-media">
+			<a href="javascript:;">
+				<div>
+					<div style="font-size: 14px;">发帖赚e币，e币兑换金属车标</div>
+					<img src="../images/1-12091Q42U6.jpg" class="mui-pull-right" style="width: 40%; margin-top: -16px;">
+					<p class="ptext" style="width: 55%; margin-top: 5px; display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 3;overflow: hidden;">即日起，凡论坛积分达到5000分的，均可免费兑换自驾e族金属车标一枚，价值38元(快递费自理)。</p>
+				</div>
+			</a>
+		</li>
+		<!--图文-->
+		<div class="mui-card-footer" style="height: 30px;">
+			<div>
+				<a href="#"><img src="../images/30wahz222.jpg" style="width:30px; height: 30px; border-radius: 24px; float: left;" /></a>
+				<span style="font-size: 14px; line-height: 30px; margin-left: 5px;">畅畅</span>
+				<button type="button" class="mui-btn" onclick="this.style.background='#00A666';this.style.color='#FFFFFF';" style="width: 40px; height: 20px; font-size: 10px; line-height: 8px; text-indent: -0.7em; margin-top: 5px; background: #FFFFFF; border: 1px solid #00A666; color:#00A666;">+ 关注</button>
+			</div>
+			<div>
+				<span class="mui-icon mui-icon-flag mui-pull-right" style="line-height: 35px; font-size: 18px; color: #D4D4D4;" onclick="this.style.color='#00A666'; this.innerText=this.innerHTML*1+1">0</span>
+				<span class="mui-icon mui-icon-chat mui-pull-right" style="line-height: 35px; font-size: 18px; color: #D4D4D4; margin-right: 20px;" onclick="this.style.color='#00A666';">123</span>
+			</div>
+		</div>
+	</ul>
+    
+    <!--广告位-->
+	<div>
+		<a href="#"><img src="../images/2A4D0T052A7L.jpg" class="advert" /></a>
+	</div>
+	
+	<ul class="mui-table-view">
+		<li class="mui-table-view-cell mui-media">
+			<a href="javascript:;">
+				<div>
+					<div style="font-size: 14px;">雨天</div>
+					<img src="../images/1-12091Q42U6.jpg" class="mui-pull-right" style="width: 40%; margin-top: -16px;">
+					<p class="ptext" style="width: 55%; margin-top:5px; display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 3;overflow: hidden;">不知道有多少人和我一样，容易在雨天忧郁，那飘洒坠落下来的雨滴，就好像总也流不干的眼泪，是的，眼泪，断了线似得一个劲儿的往下落。</p>
+				</div>
+			</a>
+		</li>
+		<!--图文-->
+		<div class="mui-card-footer" style="height: 30px;">
+			<div>
+				<a href="#"><img src="../images/30wahz222.jpg" style="width:30px; height: 30px; border-radius: 24px; float: left;" /></a>
+				<span style="font-size: 14px; line-height: 30px; margin-left: 5px;">畅畅</span>
+				<button type="button" class="mui-btn" onclick="this.style.background='#00A666';this.style.color='#FFFFFF';" style="width: 40px; height: 20px; font-size: 10px; line-height: 8px; text-indent: -0.7em; margin-top: 5px; background: #FFFFFF; border: 1px solid #00A666; color:#00A666;">+ 关注</button>
+			</div>
+			<div>
+				<span class="mui-icon mui-icon-flag mui-pull-right" style="line-height: 35px; font-size: 18px; color: #D4D4D4;" onclick="this.style.color='#00A666'; this.innerText=this.innerHTML*1+1">0</span>
+				<span class="mui-icon mui-icon-chat mui-pull-right" style="line-height: 35px; font-size: 18px; color: #D4D4D4; margin-right: 20px;" onclick="this.style.color='#00A666';">123</span>
+			</div>
+		</div>
+	</ul>
+    
+    <ul class="mui-table-view" style="margin-top: 7px;">
+		<li class="mui-table-view-cell mui-media">
+			<a href="javascript:;">	
+			<div style="font-size: 14px;">【版主任命公告】内蒙总会-巴彦淖尔分会实习版主"无痕"就任通知</div>
+				<div style="margin-top: 5px;">
+					<p style="display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 3;overflow: hidden; font-size: 12px; line-height: 2em; margin-bottom: 10px;">
+						经自驾e族内蒙总会总版主"浪漫果果"推荐，由全国总版主"良哥"审核，经自驾e族管理团队研究绝对:经自驾e族管理团队研究经自驾e族管理团队研究经自驾e族管理团队
+					</p>
+				</div>
+			</a>
+		</li>
+		<div class="mui-card-footer" style="height: 30px;">
+			<div>
+				<a href="#"><img src="../images/13364202_1443580046387_800x600.jpg" style="width:30px; height: 30px; border-radius: 24px; float: left;" /></a>
+				<span style="font-size: 14px; line-height: 30px; margin-left: 5px;">丹丹</span>
+				<button type="button" class="mui-btn" onclick="this.style.background='#00A666';this.style.color='#FFFFFF';" style="width: 40px; height: 20px; font-size: 10px; line-height: 8px; text-indent: -0.7em; margin-top: 5px; background: #FFFFFF; border: 1px solid #00A666; color: #00A666;">+ 关注</button>
+			</div>
+			<div>
+				<span class="mui-icon mui-icon-flag mui-pull-right" style="line-height: 35px; font-size: 18px; color: #D4D4D4;" onclick="this.style.color='#00A666'; this.innerText=this.innerHTML*1+1">0</span>
+				<span class="mui-icon mui-icon-chat mui-pull-right" style="line-height: 35px; font-size: 18px; color: #D4D4D4; margin-right: 20px;" onclick="this.style.color='#00A666';">123</span>
+			</div>
+		</div>
+	</ul>
+    
+    <div style="height: 60px;"></div>
+	<nav class="mui-bar mui-bar-tab">
+			<a id="defaultTab" class="mui-tab-item mui-active" href="#">
+				<span class="mui-icon mui-icon-home"></span>
+				<span class="mui-tab-label">首页</span>
+			</a>
+			<a class="mui-tab-item" href="#">
+				<span class="mui-icon mui-icon-chatbubble"></span>
+				<!--<span class="mui-icon mui-icon-email"><span class="mui-badge">9</span></span>-->
+				<span class="mui-tab-label">社区</span>
+			</a>
+			<a class="mui-tab-item" href="#">
+				<span class="mui-icon mui-icon-star"></span>
+				<span class="mui-tab-label">关注</span>
+			</a>
+			<a class="mui-tab-item" href="#">
+				<span class="mui-icon mui-icon-contact"></span>
+				<span class="mui-tab-label">我的</span>
+			</a>
+	</nav>
+    
+	</body>
+	<script src="../lib/mui-master/dist/js/mui.min.js"></script>
+	<script src="../lib/C/media-list-script.js"></script>
+</html>

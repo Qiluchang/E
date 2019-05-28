@@ -1,0 +1,272 @@
+#view .top{background: #F8FAF9; height: 45px}
+
+#view .title {line-height: 45px; font-size: 18px; color: #666867; text-indent: 1em;}
+
+#lunkuo{width: 1200px; border: 1px solid #E6F1ED;}
+
+#center{width: 1090px; margin: auto}
+.header_div {
+	height: 172px;
+}
+.header_margin {
+	margin-top: 40px;
+}
+.header_www {
+	line-height: 30px;
+	margin-left: 4px;
+}
+.header_left {
+	float: left;
+	margin-left: 4px;
+}
+.header_fenxiang {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
+.header_img {
+	width: 40px;
+	height: 40px;
+}
+.header_shuxian {
+	height: 55px;
+	margin-left: -13px;
+}
+.header_maodian {
+	float: left;
+	padding-top: 9px;
+	text-indent: -1em;
+}
+.header_maodian_text {
+	color: #FF5901;
+	font-size: 30px;
+}
+.header_tubiao {
+	width: 40px;
+	height: 40px;
+	margin-top: -22px;
+	margin-left: 8px;
+	;
+}
+.header_author {
+	float: right;
+	padding-top: 19px;
+}
+.author_font {
+	font-size: 14px;
+}
+.author_headportrait {
+	line-height: 23px;
+}
+.headportrait_width {
+	width: 20px;
+	height: 20px;
+}
+.author_name {
+	color: black;
+	font-size: 16px;
+}
+.follow_btn {
+	border: 1px solid #00A666;  line-height: 10px;  text-indent: -0.6em;  margin-top: -5px;  color: #00A666;  width: 50px;  height: 23px;
+}
+.header_hr {
+	width: 100%;
+	margin: 63px auto 8px;
+}
+.advertisement_margin {
+	margin-top: -20px;
+}
+.advertisement_img {
+	width: 1090px;
+	height: 80px;
+}
+.text {
+	width: 1090px;
+	margin-top: 20px;
+}
+.text_img {
+	width: 901px;
+	margin: auto;
+}
+.text_font {
+	margin-top: 55px;
+}
+.text_text {
+	font-size: 16px;
+	line-height: 30px;
+	color: #818181;
+}
+.pinglun_margin {
+	margin-top: 90px;
+}
+.pinglun_img {
+	width: 45px;
+	height: 45px;
+	border-radius: 25px;
+}
+.pinglun_gengduo {
+	width: 45px;
+	height: 45px;
+}
+.fenxiang_margin {
+	margin-top: 30px;
+}
+.fenxiang_img {
+	width: 26px;
+	height: 26px;
+}
+.zan_margin {
+	float: right;
+	margin-top: -28px;
+}
+.zan_tubiao {
+	font-size: 15px;
+	color: #42B280;
+	text-indent: -6px;
+}
+.zan_text {
+	font-size: 16px;
+}
+.zan_number {
+	font-size: 16px;
+	color: #FF5A00;
+}
+.shoucang_margin {
+	width: 90px;  height: 30px;  line-height: 10px;  background: #FFFFFF;  border: 1px solid #42B280;
+}
+.shoucang_tubiao {
+	font-size: 15px;
+	color: #42B280;
+	text-indent: -8px;
+}
+.shoucang_text {
+	font-size: 15px;
+}
+.comment_margin {
+	height: 970px;
+	border: 1px solid #E6F1ED;
+	margin-top: 20px;
+}
+.comment_maodian {
+	width: 1080px;
+	margin: 35px auto 0;
+}
+.comment_hr {
+	border-top: 1px dotted #D2D2D2;
+	margin-top: 10px;
+}
+.comment_tishi {
+	font-size: 14px;
+	color: #989898;
+}
+.comment_btn {
+	float: right;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+.comment_zhuce {
+	float: right;
+	margin-top: 30px;
+	font-size: 16px;
+}
+.display_margin {
+	height: 62px;
+	margin-top: 20px;
+}
+.display_touxiang {
+	width: 62px;
+	height: 62px;
+	border-radius: 30px;
+	float: left;
+}
+.display_text {
+	float: left;
+	margin-left: 20px;
+}
+.display_hr {
+	border-top: 1px dotted #D2D2D2;
+	margin-top: 15px;
+}
+.load_margin {
+	width: 100%;
+	height: 41px;
+	margin: 30px auto 0px;
+	background: #EFEFEF;
+	line-height: 41px;
+	text-align: center;
+}
+.load_text {
+	text-decoration: none;
+	font-size: 14px;
+	color: black;
+}
+.advertisement_margin {
+	margin-top: 20px;
+}
+.journalism_margin {
+	height: 300px;
+	margin-top: 20px;
+}
+.journalism_padding {
+	width: 390px;
+	height: 100%;
+	border: 1px solid #E6F1ED;
+	border-top: 2px solid #78B09F;
+	float: left;
+	margin-right: 20px;
+}
+.journalism_top {
+	background: #F8FAF9;
+	height: 33px;
+}
+.journalism_title {
+	line-height: 35px;
+	font-size: 14px;
+	color: #666867;
+	text-indent: 0.8em;
+}
+.journalism_ul {
+	margin: 10px auto 20px;
+	width: 360px;
+}
+.journalism_li {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.journalism_img {
+	margin-left: 3px;
+}
+.journalism_href {
+	line-height: 30px;
+	margin-left: 5px;
+	color: #666867;
+	text-decoration: none;
+}
+.recommend_margin {
+	width: 480px;
+	height: 100%;
+	border: 1px solid #E6F1ED;
+	border-top: 2px solid #78B09F;
+	float: left;
+	margin-right: 20px;
+}
+.recommend_top {
+	background: #F8FAF9;
+	height: 33px;
+}
+.recommend_title {
+	line-height: 35px;
+	font-size: 14px;
+	color: #666867;
+	text-indent: 0.8em;
+}
+.recommend_img_div {
+	width: 452px;
+	height: 228px;
+	margin: 18px auto 25px;
+}
+.recommend_img_left {
+	float: left;
+	margin-right: 16px;
+}

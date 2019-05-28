@@ -1,0 +1,93 @@
+*{margin: 0; padding: 0;}
+header,nav{height: 50px;}
+
+/*全局宽度1200*/
+#view{width: 1200px; margin: 0 auto;}
+
+/*左侧div*/
+.left{float: left;margin-top: 20px}
+/*右侧div*/
+.right{float: right;margin-top: 20px}
+
+/*按条件筛选框 885*370*/
+#screenframe{width: 885px;height: 370px;border: 1px solid #D8E2EE}
+#screenframe .top{background: #F8FAF9;line-height: 40px;padding: 0 20px;}
+#screenframe .top .title{border-bottom: 3px solid #505d4b;width: 85px}
+#screenframe .bbc button{border: none;}
+#screenframe .SEdiv1{line-height: 50px}
+#screenframe .SEdiv1 input{width: 750px;height: 30px}
+#screenframe .SEdiv1 select{width: 240px;height: 30px;border: 1px solid ##D8E2EE}
+#screenframe .SEdiv2{margin-top: 10px}
+#screenframe .SEdiv2 button{border: none;}
+#screenframe .SEdiv3{margin-left: 70px}
+#screenframe .SEdiv3 button{background: #00a666;color: #FFFFFF;width: 150px;height: 40px;border-radius: 5px;margin-top: 20px;outline: none;}
+
+
+/*右侧 发起活动/我的活动按钮*/
+.MYbtn1{width: 290px;height: 40px;background: #00a666;outline: none;border-radius: 5px;color: #FFFFFF;border: none;}
+.MYbtn2{width: 290px;height: 40px;margin-top: 20px;border-radius: 5px;outline: none;color: #00a666;background: #FFFFFF;border: 1px solid #00a666;}
+
+
+/*活动列表*/
+#activitylist{width: 885px;border: 1px solid #D8E2EE;overflow:hidden;}
+#activitylist .top{background: #F8FAF9;line-height: 40px;padding: 0 20px;}
+#activitylist .top .title{border-bottom: 3px solid #505d4b;width: 58px}
+#activitylist  ul{padding: 0 20px;margin-top: 20px}
+#activitylist  ul li{list-style-type:none;height: 200px}
+#activitylist .LId1{float: left}
+#activitylist .LId2{float: left;margin-left: 20px;width: 580px}
+.LIbody {color: #999;}
+.Loadmore{background: #F8FAF9;margin: 20px;text-align: center;height: 35px;width: 839px;outline: none;border-radius: 5px;border: none}
+#activitylist .LId3{margin-top: 15px}
+#activitylist .LId3 p{float: right}
+#activitylist .LId3 p b{font-size: 20px;color: red}
+
+/*推荐活动*/
+#TJactivities{ width: 290px;height: 300px; border: 1px solid #D8E2EE; margin-top: 20px;float: left}
+#TJactivities .side .top{background: #F8FAF9; height: 30px;padding: 0 15px 0;border-top: 1px solid #00a666;}
+#TJactivities .side .top button{float: right;outline: none;background: none;}
+#right .side .title {line-height: 30px; font-size: 14px; text-indent: 1em; color: #666867;}
+#TJactivities .side .title {line-height: 30px; font-size: 14px; text-indent: 1em; color: #666867;}
+ul,li{list-style: none;}
+#TJactivities .side ul{margin:10px 20px 0;}
+#TJactivities .side ul li {overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+#TJactivities .side ul li img {margin-left: 3px;}
+#TJactivities .side ul li div {margin-top: 10px}
+#TJactivities .side ul li a {line-height: 30px;  color: #666867; text-decoration:none;}
+
+
+
+/*置顶标签*/
+.stick{border: 1px solid #109361;color: #109361;width: 30px;font-size: 10px;padding: 1px;border-radius: 2px;height: 20px;}
+/*活动报名中标签*/
+.signuping{background: #109361;color: #FFFFFF;width: 70px;font-size: 10px;text-align: center;border-radius: 2px;padding: 2px}
+/*报名已截止标签*/
+.signupstop{background: #999;color: #FFFFFF;width: 70px;font-size: 10px;text-align: center;border-radius: 2px;padding: 2px}
+/*推荐标签*/
+.recommend{border: 1px solid #0000ff;color: #0000ff;width: 30px;font-size: 10px;padding: 1px;border-radius: 2px}
+
+/*标签*/
+.HDlabel{margin-top: 15px}
+
+
+/*折叠菜单*/
+/**{font-family:'微软雅黑';font-size:12px;color:#626262;}*/
+dl,dt,dd{display:block;margin:0;}
+
+/*left*/
+.leftsidebar_box dt{padding-left:35px;padding-right:10px;
+    background-repeat:no-repeat;background-position:10px center;color:#666867;font-size:14px;position:relative;line-height:40px;cursor:pointer;}
+.leftsidebar_box dd{background-color:#FFFFFF;padding-left:35px;}
+.leftsidebar_box dd a{color: #666867;line-height:20px; text-decoration:none;}
+.leftsidebar_box dt img{position:absolute;left:15px;top:16px;}
+
+
+/*底部*/
+/*外链*/
+footer{clear:both; width: 100%; height: 268px; margin: auto; background: #F7F7F7; border-top: 3px solid #00A666;}
+footer .a_div{width: 715px; margin: 22px auto 0;}
+footer .a_div a{margin-right: 25px; color: #7E7E7E;}
+
+/*版权*/
+footer .bq_div{width: 910px; margin: 22px auto 0;}
+footer .bq_div .img {border: 1px solid #DCDCDC}

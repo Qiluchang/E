@@ -1,0 +1,57 @@
+*{margin: 0; padding: 0;}
+header,nav{height: 50px;}
+body{font-family: "黑体"}
+/*全局宽度1200*/
+#view{width: 1200px; margin: 0 auto;}
+
+/*左侧div占890*/
+#left{float: left; width: 890px; border: 1px solid #D8E2EE; margin-top: 20px;}
+#left_top{float: left; width: 890px; border: 1px solid #D8E2EE; height: 500px;}
+/*右侧div占290*/
+#right{float: right; width: 290px; margin-top: -500px;}
+/*中间间距20*/
+
+#left .list{width: 100%;}
+
+/*筛选*/
+#left_top .list{width: 100%;}
+#left_top .list .top{background: #F8FAF9; height: 45px}
+#left_top .list .title {line-height: 45px; font-size: 18px; color: #666867; text-indent: 1em;}
+
+/*大体*/
+#left .list .top{background: #F8FAF9; height: 45px}
+#left .list .title {line-height: 45px; font-size: 18px; color: #666867; text-indent: 1em;}
+#left .list .text .img{border: 1px solid #E3E5E4; float: left; margin:15px 20px 35px 15px;}
+#left .list .text .right_div {float: left; width: 600px;}
+#left .list .text .right_div .div_h4{margin-top: 23px;}
+#left .list .text .right_div .div_h4 .div_a{color: black; text-decoration:none;}
+#left .list .text .right_div .div_p{font-size: 14px; line-height: 25px; margin-top: 10px;}
+#left .list .text .right_div .div_p .div_a{color: #9A9A9A; text-decoration:none;}
+
+.stice{width: 32px; height: 18px; border-radius: 2px; font-size: 5px; text-indent: -6px; line-height: 7px;}
+.icon{font-size: 20px; color: #D8D8D8;}
+.hr{width: 95%; margin: 38px auto 8px; clear: both;}
+
+
+/*推荐路书*/
+#nominate{float: right; width: 290px; border: 1px solid #D8E2EE; margin-top: -40px;}
+#nominate .side .top{background: #F8FAF9; height: 30px}
+#nominate .side .title {line-height: 30px; font-size: 14px; text-indent: 1em; color: #666867;}
+ul,li{list-style: none;}
+#nominate .side ul{margin:10px auto 20px; width: 270px;}
+#nominate .side ul li {overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+#nominate .side ul li img {margin-left: 3px;}
+#nominate .side ul li a {line-height: 30px; margin-left: 5px; color: #666867; text-decoration:none;}
+
+/*广告*/
+#advert{width: 290px; height: 335px; margin-top: -390px; float: right;}
+
+/*筛选*/
+.select li{list-style:none;padding:10px 0 5px 66px}
+.select dl{zoom:1;position:relative;line-height:32px;}
+.select dl:after{content:" ";display:block;clear:both;height:0;overflow:hidden}
+.select span{width:100px; position:absolute;top:0;left:-100px;text-align:right;height:24px;line-height:32px}
+.select dd{float:left;display:inline;margin:2px 0 5px 4px;}
+.select a{display:inline-block;white-space:nowrap;height:32px;padding:6px 20px;text-decoration:none;color:black;border-radius:2px;}
+.select a:hover{color:#2F622A;background-color:#f3edc2}
+.select .selected a{color:#fff;background-color:#15BE7D}

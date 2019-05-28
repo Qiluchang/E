@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>分会</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../../lib/mui-master/dist/css/mui.min.css">
+		<link rel="stylesheet" href="../../lib/mui-master/dist/css/mui.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../../lib/mui-master/examples/hello-mui/css/app.css" />
+		<!--以下的外部css和js都属于nav-->
+		<link rel="stylesheet" type="text/css" href="../../lib/nav/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../../lib/nav/css/widget/navigator/navigator.css" />
+		<link rel="stylesheet" type="text/css" href="../../lib/nav/css/widget/navigator/navigator.iscroll.css" />
+		<link rel="stylesheet" type="text/css" href="../../lib/nav/css/widget/navigator/navigator.default.css" />
+		<link rel="stylesheet" type="text/css" href="../../lib/nav/css/widget/navigator/navigator.iscroll.default.css" />
+		<link rel="stylesheet" type="text/css" href="../../lib/C/media-list-style.css" />
+		<link rel="stylesheet" href="../../lib/bootstrap-3.3.5-dist/css/bootstrap-theme.css"  />
+		<script type="text/javascript" src="../../lib/nav/js/zepto.js"></script>
+		<script type="text/javascript" src="../../lib/nav/js/zepto.extend.js"></script>
+		<script type="text/javascript" src="../../lib/nav/js/zepto.ui.js"></script>
+		<script type="text/javascript" src="../../lib/nav/js/zepto.iscroll.js"></script>
+		<script type="text/javascript" src="../../lib/nav/js/widget/navigator.js"></script>
+		<script type="text/javascript" src="../../lib/nav/js/widget/navigator.iscroll.js"></script>
+	</head>
+	<body>
+	<!--
+    	描述：整个div是nav,div结束则代码结束
+    -->
+	<div id="fix-both">
+	    <ul>
+	    	<!--如果想要首选就加class="cur"-->
+	        <li><a class="cur" href="#">推荐</a></li>
+	        <li><a href="media-list.html">官方</a></li>
+	        <li><a href="#">合肥</a></li>
+	        <li><a href="#">新闻</a></li>
+	        <li><a href="#">服务</a></li>
+	        <li><a href="#">即享</a></li>
+	        <li><a href="#">活动</a></li>
+	        <li><a href="#">汽车赛事</a></li>
+	        <li><a href="#">房车e族</a></li>
+	        <li><a href="#">八卦灌水</a></li>
+	    </ul>
+    	<a class="ui-navigator-fixright" href="#">+</a> <!-- 如果只需要左侧固定，请删除这个a标签 -->
+	</div>
+	<!--nav代码结束-->
+	<!--
+    	描述：每一个ul是一个段落，包括里面的li等
+   -->
+    <a href="#">
+	    <div style="background: #FFFFFF; line-height: 8vw; text-align: center;">
+	    	<span style="color: black; font-size: 4vw">点击选择城市</span>
+	    	<span class="mui-icon mui-icon-location" style="color: #00A666; font-size: 18px;"></span>
+	    </div>
+    </a>
+
+	<ul class="mui-table-view">
+		<li class="mui-table-view-cell mui-media" style="height: 35vw;">
+			<a style="height: 35vw;">
+				<div >
+					<span style="height:7vw; line-height: 6vw; font-size: 4vw;">雨天</span>
+					<img src="../images/1-12091Q42U6.jpg" class="mui-pull-right" style="width: 32vw; height: 20vw; margin-top: 1vw">
+					<p style="height:14vw; width: 52vw; line-height: 5vw; font-size: 3vw; display: -webkit-box; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow : hidden;">不知道有多少人和我一样，容易在雨天忧郁，那飘洒坠落下来的雨滴，就好像总也流不干的眼泪，是的，眼泪，断了线似得一个劲儿的往下落。不知道有多少人和我一样，容易在雨天忧郁，那飘洒坠落下来的雨滴，就好像总也流不干的眼泪，是的，眼泪，断了线似得一个劲儿的往下落。不知道有多少人和我一样，容易在雨天忧郁，那飘洒坠落下来的雨滴，就好像总也流不干的眼泪，是的，眼泪，断了线似得一个劲儿的往下落。不知道有多少人和我一样，容易在雨天忧郁，那飘洒坠落下来的雨滴，就好像总也流不干的眼泪，是的，眼泪，断了线似得一个劲儿的往下落。不知道有多少人和我一样，容易在雨天忧郁，那飘洒坠落下来的雨滴，就好像总也流不干的眼泪，是的，眼泪，断了线似得一个劲儿的往下落。</p>
+
+					<div style="margin-top: 2vw">
+						<img src="../images/30wahz222.jpg" style="width:7vw; height: 7vw; border-radius: 24vw; float: left;" />
+						<span style="font-size: 3vw; line-height: 7vw; margin-left: 5px;">畅畅</span>
+						<button type="button" class="mui-btn" onclick="this.style.background='#00A666';this.style.color='#FFFFFF';" style="width: 10vw; height: 6vw; font-size: 1vw; line-height: 2.5vw; text-indent: -3vw; margin-top: 0.7vw; background: #FFFFFF; border: 1px solid #00A666; color: #00A666;">+ 关注</button>
+
+						<span class="mui-icon mui-icon-flag mui-pull-right" style="line-height:8vw; font-size: 4vw; color: #D4D4D4;" onclick="this.style.color='#00A666'; this.innerText=this.innerHTML*1+1">0</span>
+						<span class="mui-icon mui-icon-chat mui-pull-right" style="line-height:8vw; font-size: 4vw; color: #D4D4D4; margin-right: 20px;" onclick="this.style.color='#00A666';">123</span>
+					</div>
+				</div>
+			</a>
+		</li>
+	</ul>
+	
+	<ul class="mui-table-view" style="margin-top: 10px;">
+		<li class="mui-table-view-cell mui-media">
+			<a href="javascript:;">	
+			<h4 style="font-size: 4vw">亚洲第一大桥即将通车</h4>
+				<div style="margin-top: 30px;">
+					<img src="../images/1-12091Q42U6.jpg" class="mui-pull-left" style="width: 30%; margin-top: -18px;">
+					<img src="../images/1-12091Q42U6.jpg" style="width: 30%; margin-top: -18px; margin-left: 5%;">
+					<img src="../images/1-12091Q42U6.jpg" class="mui-pull-right" style="width: 30%; margin-top: -18px;">
+				</div>
+			</a>
+		</li>
+		<div class="mui-card-footer" style="height: 30px;">
+			<div>
+				<a href="#"><img src="../images/13364204_1443580059359_800x600.jpg" style="width:30px; height: 30px; border-radius: 24px; float: left;" /></a>
+				<span style="font-size: 14px; line-height: 30px; margin-left: 5px;">吕梁</span>
+				<button type="button" class="mui-btn" onclick="this.style.background='#00A666';this.style.color='#FFFFFF';" style="width: 40px; height: 20px; font-size: 10px; line-height: 8px; text-indent: -0.7em; margin-top: 5px; background: #FFFFFF; border: 1px solid #00A666; color: #00A666;">+ 关注</button>
+			</div>
+			<div>
+				<span class="mui-icon mui-icon-flag mui-pull-right" style="line-height: 35px; font-size: 18px; color: #D4D4D4;" onclick="this.style.color='#00A666'; this.innerText=this.innerHTML*1+1">0</span>
+				<span class="mui-icon mui-icon-chat mui-pull-right" style="line-height: 35px; font-size: 18px; color: #D4D4D4; margin-right: 20px;" onclick="this.style.color='#00A666';">123</span>
+			</div>
+		</div>
+	</ul>
+	
+	<ul class="mui-table-view" style="margin-top: 10px;">
+		<li class="mui-table-view-cell mui-media">
+			<a href="javascript:;">	
+			<h4 style="font-size: 4vw">参加自驾e族安徽房车生产基地</h4>
+				<div style="margin-top: 30px;">
+					<img src="../images/1-12091Q42U6.jpg" class="mui-pull-left" style="width: 48%; margin-top: -18px;">
+					<img src="../images/1-12091Q42U6.jpg" class="mui-pull-right" style="width: 48%; margin-top: -18px;">
+				</div>
+			</a>
+		</li>
+		<div class="mui-card-footer" style="height: 30px;">
+			<div>
+				<a href="#"><img src="../images/3812b31bb051f819fbbcbf91dfb44aed2f73e754.jpg" style="width:30px; height: 30px; border-radius: 24px; float: left;" /></a>
+				<span style="font-size: 14px; line-height: 30px; margin-left: 5px;">畅畅</span>
+				<button type="button" class="mui-btn" onclick="this.style.background='#00A666';this.style.color='#FFFFFF';" style="width: 40px; height: 20px; font-size: 10px; line-height: 8px; text-indent: -0.7em; margin-top: 5px; background: #FFFFFF; border: 1px solid #00A666; color: #00A666;">+ 关注</button>
+			</div>
+			<div>
+				<span class="mui-icon mui-icon-flag mui-pull-right" style="line-height: 35px; font-size: 18px; color: #D4D4D4;" onclick="this.style.color='#00A666'; this.innerText=this.innerHTML*1+1">0</span>
+				<span class="mui-icon mui-icon-chat mui-pull-right" style="line-height: 35px; font-size: 18px; color: #D4D4D4; margin-right: 20px;" onclick="this.style.color='#00A666';">123</span>
+			</div>
+		</div>
+	</ul>
+	
+	<!--广告位-->
+	<div style="margin-top: 5px;">
+		<a href="#"><img src="../images/2A4D0T052A7L.jpg" class="advert" /></a>
+	</div>
+	
+	<ul class="mui-table-view" style="margin-top: 7px;">
+		<li class="mui-table-view-cell mui-media">
+			<a href="javascript:;">	
+			<h4>每日一句</h4>
+				<div style="margin-top: 10px;">
+					<p style="display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 3;overflow: hidden; font-size: 12px; line-height: 2em; margin-bottom: 10px;">
+						所有的成功，都来自于不倦的努力和奔跑；所有幸福，都来自平凡的奋斗和坚持，你无法找到捷径。只要你愿意，并且为之坚持，总有一天，你会活成自己喜欢的那个模样。当生活很艰难，你想要放弃的时候，别忘了这个世界上，还有比你更艰难的人，生活充满了挑战，请不要放弃一切希望。
+					</p>
+				</div>
+			</a>
+		</li>
+		<div class="mui-card-footer" style="height: 30px;">
+			<div>
+				<a href="#"><img src="../images/13364202_1443580046387_800x600.jpg" style="width:30px; height: 30px; border-radius: 24px; float: left;" /></a>
+				<span style="font-size: 14px; line-height: 40px; margin-left: 5px;">丹丹</span>
+				<button type="button" class="mui-btn" onclick="this.style.background='#00A666';this.style.color='#FFFFFF';" style="width: 40px; height: 20px; font-size: 10px; line-height: 8px; text-indent: -0.7em; margin-top: 5px; background: #FFFFFF; border: 1px solid #00A666; color: #00A666;">+ 关注</button>
+			</div>
+			<div>
+				<span class="mui-icon mui-icon-flag mui-pull-right" style="line-height: 35px; font-size: 18px; color: #D4D4D4;" onclick="this.style.color='#00A666'; this.innerText=this.innerHTML*1+1">0</span>
+				<span class="mui-icon mui-icon-chat mui-pull-right" style="line-height: 35px; font-size: 18px; color: #D4D4D4; margin-right: 20px;" onclick="this.style.color='#00A666';">123</span>
+			</div>
+		</div>
+	</ul>
+
+	<div style="height: 60px;"></div>
+	<nav class="mui-bar mui-bar-tab">
+		<a id="defaultTab" class="mui-tab-item mui-active" href="#">
+			<span class="mui-icon mui-icon-home"></span>
+			<span class="mui-tab-label">首页</span>
+		</a>
+		<a class="mui-tab-item" href="#">
+			<span class="mui-icon mui-icon-chatbubble"><span class="mui-badge">9</span></span>
+			<!--<span class="mui-icon mui-icon-email"><span class="mui-badge">9</span></span>-->
+			<span class="mui-tab-label">社区</span>
+		</a>
+		<a class="mui-tab-item" href="#">
+			<span class="mui-icon mui-icon-star"></span>
+			<span class="mui-tab-label">关注</span>
+		</a>
+		<a class="mui-tab-item" href="#">
+			<span class="mui-icon mui-icon-contact"></span>
+			<span class="mui-tab-label">我的</span>
+		</a>
+	</nav>
+	</body>
+	<script src="../../lib/SmaLove/mui-master/dist/js/mui.min.js"></script>
+	<!--<script src="../../lib/C/media-list-script.js"></script>-->
+</html>

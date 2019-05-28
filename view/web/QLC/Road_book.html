@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>路书首页</title>
+    <link href="../../lib/bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet"/>
+    <link href="../../lib/SmaLove/web/Road_book.css" rel="stylesheet" />
+    <link href="../../lib/public_style.css" rel="stylesheet" />
+    <script src="../../lib/jquery-2.2.3.js"></script>
+    <script src="../../lib/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+    <script src="../../lib/SmaLove/web/script.js"></script>
+</head>
+<body>
+<!--头部-->
+<header style="height: 30px;background: #505d4b">头部</header>
+<div id="view">
+    <div style="margin-top: 20px">
+        <div class="pull-left">
+            <img src="../images/zjtb.png">
+        </div>
+
+        <!--头部 290 x 60 广告位-->
+        <div class="pull-right">
+            <a href="#"><img src="../images/290x60gg.png"></a>
+        </div>
+
+        <!--头部搜索框-->
+        <div class="pull-right" style="width: 500px;margin-right: 20px">
+            <div class="input-group">
+                <input type="text" style="border-radius: 0px" class="form-control" placeholder="请输入关键词搜索">
+                <span class="input-group-btn ">
+                    <button class="btn btn-default" type="button" style="background: #00a666;color: #FFFFFF;width: 70px;border-radius: 0">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </span>
+            </div><!-- /input-group -->
+            <div style="margin-top: 10px">
+                <a href="#">自驾e族</a>&nbsp;&nbsp;&nbsp;
+                <a href="#">自驾游</a>&nbsp;&nbsp;&nbsp;
+                <a href="#">版主大会</a>&nbsp;&nbsp;&nbsp;
+                <a href="#">大型活动</a>
+            </div>
+        </div><!-- /.col-lg-6 -->
+    </div>
+
+<!--1190 x 80广告位-->
+<div class="left">
+    <div class="left">
+        <!-- <p>导航栏</p> -->
+    </div>
+    <a href="#"><img style="width: 1200px;margin-top: 20px;" src="../images/cguangg.png"></a>
+</div>
+
+
+<div id="view" style="margin-top: 30px;">
+    <div id="left_top">
+        <div class="list">
+            <div class="top">
+                <p class="title"><b>按条件筛选</b></p>
+            </div>
+            <!--筛选-->
+            <div style="width: 853px; margin: auto;">
+                <div style="margin-top: 15px;">
+                    <span>按关键字 :　</span><input  class="form-control" style="height: 32px; width: 764px; float: right;"/>
+                </div>
+                <div style="margin-top: 30px;">
+                    <span>按出发地 :　</span>
+                    <select class="form-control" style="width: 250px; height: 32px; float: right;">
+                        <option value="1">请选择地区</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select class="form-control" style="width: 250px; height: 32px; float: right; margin-right: 7px;">
+                        <option value="1">请选择城市</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select class="form-control" style="width: 250px; float: right; height: 32px; margin-right: 7px">
+                        <option value="1">请选择省份</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+<!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+                <div style="margin-top: 30px;">
+                    <span>按到达地 :　</span><select class="form-control" style="width: 250px; height: 32px; float: right;">
+                    <option value="1">请选择地区</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                    <select class="form-control" style="width: 250px; height: 32px; float: right; margin-right: 7px;">
+                        <option value="1">请选择城市</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select class="form-control" style="width: 250px; float: right; height: 32px; margin-right: 7px">
+                        <option value="1">请选择省份</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+<!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+
+            <div style="width: 850px; margin-left: 20px;">
+                <div style="margin-top: 20px;">
+                    <ul class="select">
+                        <li class="select-list">
+                            <dl id="select1">
+                                <span>时间区间 :　</span>
+                                <dd class="select-all selected"><a href="#">不限</a></dd>
+                                <dd><a href="#">1月内</a></dd>
+                                <dd><a href="#">1-2月</a></dd>
+                                <dd><a href="#">3-4月</a></dd>
+                                <dd><a href="#">5个月以上</a></dd>
+                                <dd><a href="#">固定路线</a></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+
+                <div style="margin-top: -15px;">
+                    <ul class="select">
+                        <li class="select-list">
+                            <dl id="select2">
+                                <span>人均费用 :　</span>
+                                <dd class="select-all selected"><a href="#">不限</a></dd>
+                                <dd><a href="#">1-999</a></dd>
+                                <dd><a href="#">1000-5999</a></dd>
+                                <dd><a href="#">6000以上</a></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+
+                <div style="margin-top: -15px;">
+                            <ul class="select">
+                                <li class="select-list">
+                                    <dl id="select3">
+                                        <span>出游形式 :　</span>
+                                        <dd class="select-all selected"><a href="#">不限</a></dd>
+                                        <dd><a href="#">自由行</a></dd>
+                                        <dd><a href="#">半自由行</a></dd>
+                                        <dd><a href="#">跟团</a></dd>
+                                        <dd><a href="#">自驾</a></dd>
+                                        <dd><a href="#">包车</a></dd>
+                                        <dd><a href="#">骑行</a></dd>
+                                        <dd><a href="#">徒步</a></dd>
+                                    </dl>
+                                </li>
+                            </ul>
+
+                    <button type="submit" class="btn btn-danger" style="background: #14BF7D; border: 1px solid #14BF7D; width: 150px; height: 40px; margin-left: 88px;">立即搜索</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!--以上是筛选-->
+    <div id="left">
+        <div class="list">
+            <div class="top">
+                <p class="title"><b>会员服务</b></p>
+            </div>
+            <!--所有div class为start的，都是一个list-->
+
+
+            <div class="start">
+                <div class="text">
+                    <!--第一个列表中的img的class必须为img，之后的必须为img2-->
+                    <a href=""><img class="img" src="../images/夏日激情.png" /></a>
+
+                    <div class="right_div">
+                        <h4 class="div_h4"><a class="div_a" href="">丽江第一家酷玩房车营地开业啦</a></h4>
+                        <p class="div_p">
+                            <a class="div_a" href="">
+                                “这是一条神奇的天路。。。。。” 这不是在青藏高原，而是在中原，巍巍太行也有一条天路。
+                                这条建设在太行山山脊上的古道，经过重新修整已经和古路大不一样了，除了要翻越嵩山峻岭，
+                                还有当地淳朴的小村庄和当地几乎接近古代生活方式的人们。
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div style="margin-top: 10px;">
+                    <div style="float: left; margin-top: 30px;">
+                        <span class="glyphicon glyphicon-map-marker"></span><span>云南-西藏</span><span style="color: #AAAAAA;"> 800公里　</span>
+                        <img src="../images/头像.png" style="width: 18px; height: 18px; border-radius: 20px; margin-top: -3px;" />
+                        <span>无刀</span>
+                    </div>
+                    <div style="float: right; margin-top: 30px; margin-right: 25px;">
+                        <span class="glyphicon glyphicon-comment icon"></span><span style="color: #D8D8D8; margin-right: 10px;"> 15</span>
+                        <span class="glyphicon glyphicon-thumbs-up icon"></span><span style="color: #D8D8D8;"> 89</span>
+                    </div>
+                </div>
+
+                <!--我是一条线，必须包含-->
+                <hr class="hr"/>
+            </div>
+
+            <div class="start">
+                <div class="text">
+                    <!--第一个列表中的img的class必须为img，之后的必须为img2-->
+                    <a href=""><img class="img" src="../images/夏日激情.png" /></a>
+
+                    <div class="right_div">
+                        <h4 class="div_h4"><a class="div_a" href="">丽江第一家酷玩房车营地开业啦</a></h4>
+                        <p class="div_p">
+                            <a class="div_a" href="">
+                                “这是一条神奇的天路。。。。。” 这不是在青藏高原，而是在中原，巍巍太行也有一条天路。
+                                这条建设在太行山山脊上的古道，经过重新修整已经和古路大不一样了，除了要翻越嵩山峻岭，
+                                还有当地淳朴的小村庄和当地几乎接近古代生活方式的人们。
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div style="margin-top: 10px;">
+                    <div style="float: left; margin-top: 30px;">
+                        <span class="glyphicon glyphicon-map-marker"></span><span>云南-西藏</span><span style="color: #AAAAAA;"> 800公里　</span>
+                        <img src="../images/头像.png" style="width: 18px; height: 18px; border-radius: 20px; margin-top: -3px;" />
+                        <span>无刀</span>
+                    </div>
+                    <div style="float: right; margin-top: 30px; margin-right: 25px;">
+                        <span class="glyphicon glyphicon-comment icon"></span><span style="color: #D8D8D8; margin-right: 10px;"> 15</span>
+                        <span class="glyphicon glyphicon-thumbs-up icon"></span><span style="color: #D8D8D8;"> 89</span>
+                    </div>
+                </div>
+
+                <!--我是一条线，必须包含-->
+                <hr class="hr" />
+            </div>
+
+            <div class="start">
+                <div class="text">
+                    <!--第一个列表中的img的class必须为img，之后的必须为img2-->
+                    <a href=""><img class="img" src="../images/夏日激情.png" /></a>
+
+                    <div class="right_div">
+                        <h4 class="div_h4"><a class="div_a" href="">丽江第一家酷玩房车营地开业啦</a></h4>
+                        <p class="div_p">
+                            <a class="div_a" href="">
+                                “这是一条神奇的天路。。。。。” 这不是在青藏高原，而是在中原，巍巍太行也有一条天路。
+                                这条建设在太行山山脊上的古道，经过重新修整已经和古路大不一样了，除了要翻越嵩山峻岭，
+                                还有当地淳朴的小村庄和当地几乎接近古代生活方式的人们。
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div style="margin-top: 10px;">
+                    <div style="float: left; margin-top: 30px;">
+                        <span class="glyphicon glyphicon-map-marker"></span><span>云南-西藏</span><span style="color: #AAAAAA;"> 800公里　</span>
+                        <img src="../images/头像.png" style="width: 18px; height: 18px; border-radius: 20px; margin-top: -3px;" />
+                        <span>无刀</span>
+                    </div>
+                    <div style="float: right; margin-top: 30px; margin-right: 25px;">
+                        <span class="glyphicon glyphicon-comment icon"></span><span style="color: #D8D8D8; margin-right: 10px;"> 15</span>
+                        <span class="glyphicon glyphicon-thumbs-up icon"></span><span style="color: #D8D8D8;"> 89</span>
+                    </div>
+                </div>
+
+                <!--我是一条线，必须包含-->
+                <hr class="hr" />
+            </div>
+
+            <div class="start">
+                <div class="text">
+                    <!--第一个列表中的img的class必须为img，之后的必须为img2-->
+                    <a href=""><img class="img" src="../images/夏日激情.png" /></a>
+
+                    <div class="right_div">
+                        <h4 class="div_h4"><a class="div_a" href="">丽江第一家酷玩房车营地开业啦</a></h4>
+                        <p class="div_p">
+                            <a class="div_a" href="">
+                                “这是一条神奇的天路。。。。。” 这不是在青藏高原，而是在中原，巍巍太行也有一条天路。
+                                这条建设在太行山山脊上的古道，经过重新修整已经和古路大不一样了，除了要翻越嵩山峻岭，
+                                还有当地淳朴的小村庄和当地几乎接近古代生活方式的人们。
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div style="margin-top: 10px;">
+                    <div style="float: left; margin-top: 30px;">
+                        <span class="glyphicon glyphicon-map-marker"></span><span>云南-西藏</span><span style="color: #AAAAAA;"> 800公里　</span>
+                        <img src="../images/头像.png" style="width: 18px; height: 18px; border-radius: 20px; margin-top: -3px;" />
+                        <span>无刀</span>
+                    </div>
+                    <div style="float: right; margin-top: 30px; margin-right: 25px;">
+                        <span class="glyphicon glyphicon-comment icon"></span><span style="color: #D8D8D8; margin-right: 10px;"> 15</span>
+                        <span class="glyphicon glyphicon-thumbs-up icon"></span><span style="color: #D8D8D8;"> 89</span>
+                    </div>
+                </div>
+
+                <!--我是一条线，必须包含-->
+                <hr class="hr" />
+            </div>
+
+            <div class="start">
+                <div class="text">
+                    <!--第一个列表中的img的class必须为img，之后的必须为img2-->
+                    <a href=""><img class="img" src="../images/夏日激情.png" /></a>
+
+                    <div class="right_div">
+                        <h4 class="div_h4"><a class="div_a" href="">丽江第一家酷玩房车营地开业啦</a></h4>
+                        <p class="div_p">
+                            <a class="div_a" href="">
+                                “这是一条神奇的天路。。。。。” 这不是在青藏高原，而是在中原，巍巍太行也有一条天路。
+                                这条建设在太行山山脊上的古道，经过重新修整已经和古路大不一样了，除了要翻越嵩山峻岭，
+                                还有当地淳朴的小村庄和当地几乎接近古代生活方式的人们。
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div style="margin-top: 10px;">
+                    <div style="float: left; margin-top: 30px;">
+                        <span class="glyphicon glyphicon-map-marker"></span><span>云南-西藏</span><span style="color: #AAAAAA;"> 800公里　</span>
+                        <img src="../images/头像.png" style="width: 18px; height: 18px; border-radius: 20px; margin-top: -3px;" />
+                        <span>无刀</span>
+                    </div>
+                    <div style="float: right; margin-top: 30px; margin-right: 25px;">
+                        <span class="glyphicon glyphicon-comment icon"></span><span style="color: #D8D8D8; margin-right: 10px;"> 15</span>
+                        <span class="glyphicon glyphicon-thumbs-up icon"></span><span style="color: #D8D8D8;"> 89</span>
+                    </div>
+                </div>
+
+                <!--我是一条线，必须包含-->
+                <hr class="hr" />
+                <div style="width: 853px; height: 45px; margin: 30px auto 30px; background: #F8FAF9; line-height: 45px; text-align: center;">
+                    <a href="" style="text-decoration:none; color: #999999;">加载更多 > ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--从这里开始是右边的-->
+    <div id="right">
+        <button class="btn btn-block" style="background: #00A666; border: 1px solid #00A666; height: 42px; color: #FFFFFF;font-size: 18px;">
+            <span class="glyphicon glyphicon-leaf"></span> 发布路书</button>
+        <button class="btn btn-block btn-default" style="border: 1px solid #00A666; height: 42px; color: #00A666; font-size: 18px; margin-top: 10px;">
+            <span class="glyphicon glyphicon-book"></span> 我的路书</button>
+    </div>
+
+    <div id="advert">
+        <img src="../images/广告.png"/>
+    </div>
+
+    <div id="nominate">
+        <div class="side">
+            <div class="top">
+                <p class="title"><b>推荐路书</b></p>
+            </div>
+            <ul>
+                <li>
+                    <img src="../images/圆点.png" style="margin-left: 3px;"/>
+                    <a href="" style="line-height: 30px; margin-left: 5px;">祝全体会员端午节快乐</a>
+                </li>
+                <li>
+                    <img src="../images/圆点.png" style="margin-left: 3px;"/>
+                    <a href="" style="line-height: 30px; margin-left: 5px;">自驾e族任务专访： “海之港湾” --最美丽的</a>
+                </li>
+                <li>
+                    <img src="../images/圆点.png">
+                    <a href="">自驾e族新会员卡官方发行</a>
+                </li>
+                <li>
+                    <img src="../images/圆点.png">
+                    <a href="">自驾e族任务专访： 浙江斧头 将越野进行到底</a>
+                </li>
+                <li>
+                    <img src="../images/圆点.png">
+                    <a href="">庆祝自驾e族成立2周年，感恩所有会员的陪伴</a>
+                </li>
+                <li>
+                    <img src="../images/圆点.png">
+                    <a href="">自驾e族走进2016年环塔拉力赛</a>
+                </li>
+                <li>
+                    <img src="../images/圆点.png">
+                    <a href="">自驾e族手机版上线啦</a>
+                </li>
+                <li>
+                    <img src="../images/圆点.png">
+                    <a href="">自驾e族2015版主大会 相聚西安</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div style="clear:both; height: 35px;"></div>
+
+<footer>
+    <div class="a_div">
+        <img src="../images/a.jpg"/>
+        <a href="">黑蝙蝠车队</a>
+        <a href="">爱卡汽车</a>
+        <a href="">汽车之家</a>
+        <a href="">中国越野</a>
+        <a href="">爱车一族</a>
+        <a href="">纵横天下</a>
+        <a href="">河北赛车网</a>
+    </div>
+    <div class="bq_div">
+        <img src="../images/app.png" style="margin-right: 10px;" />
+        <img src="../images/weixin.png" style="margin-right: 10px;" />
+        <img src="../images/beian.png" style="margin-right: 10px;" />
+        <img src="../images/gaba.png" />
+    </div>
+    <div class="www">
+        <p class="p1">中国大型的自驾游主题平台。想自驾，来自驾e族！网址：www.fbtrip.cn,官方微信号：fbtrip-cn</p>
+        <p class="p2">版权所有：自驾e族 © 2014-2016 www.fbtrip.cn</p>
+    </div>
+</footer>
+
+</body>
+<script src="../../lib/SmaLove/web/UpNav.js"></script>
+</html>

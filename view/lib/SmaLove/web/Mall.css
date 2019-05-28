@@ -1,0 +1,45 @@
+#lunkuo{width: 1200px;}
+#center{width: 1190px; margin: auto}
+
+/*大体*/
+#left .list .top{background: #F8FAF9; height: 45px}
+#left .list .title {line-height: 45px; font-size: 18px; color: #666867; text-indent: 1em;}
+
+#left .list .text .img{border: 1px solid #E3E5E4; float: left; margin-top: 15px; margin-left: 15px; margin-right: 20px;}
+
+#left .list .text .right_div {float: left; width: 600px;}
+
+#left .list .text .right_div .div_h4{margin-top: 23px;}
+
+#left .list .text .right_div .div_h4 .div_a{color: black; text-decoration:none;}
+
+#left .list .text .right_div .div_p{font-size: 14px; line-height: 25px; margin-top: 10px;}
+#left .list .text .right_div .div_p .div_a{color: #9A9A9A; text-decoration:none;}
+
+.line_h{text-decoration:line-through; font-size: 16px; color: #CDCDCD;}
+.line_y{font-size: 18px; color: red;}
+
+#sells li{width: 297px; height: 308px; float: left;}
+#sells li img {width: 295px; height: 222px;}
+
+#launch li{width: 297px; height: 308px; float: left;}
+#launch li img {width: 295px; height: 222px;}
+
+
+.stice{width: 32px; height: 18px; border-radius: 2px; font-size: 5px; text-indent: -6px; line-height: 7px;}
+
+/*广告*/
+#advert{width: 290px; height: 335px; margin-top: -50px; float: right;}
+
+
+
+#nominate{float: right; width: 298px; height: 308px; border-top: 1px solid #E5E5E5; border-right: 1px solid #E5E5E5; border-bottom: 1px solid #E5E5E5;}
+#nominate .side .top{background: #FAFAFA; height: 30px;}
+#nominate .side{width: 296px; height: 306px;}
+#nominate .side .title {line-height: 60px; font-size: 20px; text-indent: 1em; color: #666867;}
+ul,li{list-style: none;}
+#nominate .side ul{margin:10px auto 20px; width: 270px;}
+#nominate .side ul li {overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+#nominate .side ul li img {margin-left: 3px;}
+#nominate .side ul li a {line-height: 30px; margin-left: 5px; color: #666867; text-decoration:none;}
+

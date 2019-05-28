@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link href="../../lib/bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet"/>
+    <link href="../../lib/SmaLove/web/homepageC.css" rel="stylesheet" />
+    <link href="../../lib/public_style.css" rel="stylesheet" />
+    <script src="../../lib/jquery-2.2.3.js"></script>
+    <script type="text/javascript" src="../../lib/jquery.rotate.min.js"></script>
+    <script src="../../lib/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+</head>
+<body>
+<!--头部-->
+<header style="height: 30px;background: #505d4b">头部</header>
+<div id="view" style="margin-top: 20px">
+    <div class="pull-left">
+        <img src="../images/zjtb.png">
+    </div>
+
+    <!--头部 290 x 60 广告位-->
+    <div class="pull-right">
+        <a href="#"><img src="../images/290x60gg.png"></a>
+    </div>
+
+    <!--头部搜索框-->
+    <div class="pull-right" style="width: 500px;margin-right: 20px">
+        <div class="input-group">
+            <input type="text" style="border-radius: 0px" class="form-control" placeholder="请输入关键词搜索">
+            <span class="input-group-btn ">
+                <button class="btn btn-default" type="button" style="background: #00a666;color: #FFFFFF;width: 70px;border-radius: 0">
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+            </span>
+        </div><!-- /input-group -->
+        <div style="margin-top: 10px">
+        <a href="#">自驾e族</a>&nbsp;&nbsp;&nbsp;
+        <a href="#">自驾游</a>&nbsp;&nbsp;&nbsp;
+        <a href="#">版主大会</a>&nbsp;&nbsp;&nbsp;
+        <a href="#">大型活动</a>
+        </div>
+    </div><!-- /.col-lg-6 -->
+</div><br><br><br>
+<p>导航栏</p>
+
+<!--1190 x 80广告位-->
+<div id="view" style="margin-bottom: 20px">
+    <a href="#"><img src="../images/cguangg.png"></a>
+</div>
+
+<!--图片轮播 推荐新闻/热门专题/精彩活动 -->
+<div id="view" style="margin-bottom: 20px">
+    <!--图片轮播-->
+    <div id="myCarousel" style="width: 685px;height: 385px;float: left" class="carousel slide">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="../images/轮播第一张.png" alt="First slide">
+            </div>
+            <div class="item">
+                <img src="../images/轮播2.jpg" alt="Second slide">
+            </div>
+            <div class="item">
+                <img src="../images/轮播3.jpg" alt="Third slide">
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a style="margin-top: -2px" class="carousel-control left" href="#myCarousel"
+           data-slide="prev"><span style="font-size: 100px">&lsaquo;</span></a>
+        <a style="margin-top: -2px" class="carousel-control right" href="#myCarousel"
+           data-slide="next"><span style="font-size: 100px">&rsaquo;</span></a>
+    </div>
+    <!--推荐新闻/热门专题/精彩活动-->
+    <div id="news">
+        <div class="side">
+            <div class="top">
+                <span class="title"><b>&nbsp;推荐新闻</b>&nbsp;丨</span>
+                <span class="title"><b>热门专题</b>&nbsp;丨</span>
+                <span class="title"><b>精彩活动</b></span>
+                <button class="rotate1"><span class="glyphicon glyphicon-plus"></span></button>
+            </div>
+            <ul>
+                <li>
+                    <img src="../images/圆点.png" style="margin-left: 3px;"/>
+                    <a href="" style="line-height: 30px; margin-left: 5px;">祝全体会员端午节快乐</a>
+                    <span>07-12</span>
+                </li>
+                <li>
+                    <img src="../images/圆点.png" style="margin-left: 3px;"/>
+                    <a href="" style="line-height: 30px; margin-left: 5px;">自驾e族任务专访： “海之港湾” --最美丽的</a>
+                    <span>07-10</span>
+                </li>
+                <li>
+                    <img src="../images/圆点.png">
+                    <a href="">自驾e族新会员卡官方发行</a>
+                    <span>07-08</span>
+                </li>
+                <li>
+                    <img src="../images/圆点.png">
+                    <a href="">自驾e族任务专访： 浙江斧头 将越野进行到底</a>
+                    <span>06-28</span>
+                </li>
+                <li>
+                    <img src="../images/圆点.png">
+                    <a href="">庆祝自驾e族成立2周年，感恩所有会员的陪伴</a>
+                    <span>06-22</span>
+                </li>
+                <li>
+                    <img src="../images/圆点.png">
+                    <a href="">自驾e族走进2016年环塔拉力赛</a>
+                    <span>06-15</span>
+                </li>
+                <li>
+                    <img src="../images/圆点.png">
+                    <a href="">自驾e族手机版上线啦</a>
+                    <span>06-12</span>
+                </li>
+                <li>
+                    <img src="../images/圆点.png">
+                    <a href="">自驾e族2015版主大会 相聚西安</a>
+                    <span>06-11</span>
+                </li>
+                <li>
+                    <img src="../images/圆点.png">
+                    <a href="">自驾e族庆祝66周年国庆节 祝全体会员及家人节日快乐</a>
+                    <span>06-11</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--间隙-->
+<div id="view" class="gap"></div>
+
+<!--车型俱乐部-->
+<div id="view">
+    <div style="height:100px; width:1200px;overflow-x:auto">
+        <table>
+            <td><a href="#" data-toggle="tooltip" title="Jeep"><img src="../images/jp.png"></a></td>
+            <td><a href="#" data-toggle="tooltip" title="帕杰罗"><img src="../images/pjl.png"></a></td>
+            <td><a href="#" data-toggle="tooltip" title="猎豹"><img src="../images/lb.png"></a></td>
+            <td><a href="#" data-toggle="tooltip" title="江铃"><img src="../images/jl.png"></a></td>
+            <td><a href="#" data-toggle="tooltip" title="现代"><img src="../images/xd.png"></a></td>
+            <td><a href="#" data-toggle="tooltip" title="铃木"><img src="../images/lm.png"></a></td>
+            <td><a href="#" data-toggle="tooltip" title="长城"><img src="../images/cc.png"></a></td>
+            <td><a href="#" data-toggle="tooltip" title="江铃"><img src="../images/jl.png"></a></td>
+            <td><a href="#" data-toggle="tooltip" title="现代"><img src="../images/xd.png"></a></td>
+            <td><a href="#" data-toggle="tooltip" title="猎豹"><img src="../images/lb.png"></a></td>
+            <td><a href="#" data-toggle="tooltip" title="江铃"><img src="../images/jl.png"></a></td>
+            <td><a href="#" data-toggle="tooltip" title="现代"><img src="../images/xd.png"></a></td>
+            <td><a href="#" data-toggle="tooltip" title="铃木"><img src="../images/lm.png"></a></td>
+            <td><a href="#" data-toggle="tooltip" title="长城"><img src="../images/cc.png"></a></td>
+        </table>
+    </div>
+</div>
+
+<!--总会列表-->
+<div id="view" style="overflow-x:auto">
+    <div style="float: left" id="Federationlist">
+        <div class="listD">
+            <table>
+                <td class="title"><b>华东区</b></td>
+                <td>山东</td><td>江苏</td><td>安徽</td><td>浙江</td><td>福建</td><td>上海</td>
+            </table>
+            <table>
+                <td class="title"><b>华南区</b></td>
+                <td>广东</td><td>广西</td><td>海南</td>
+            </table>
+            <table>
+                <td class="title"><b>华中区</b></td>
+                <td>湖南</td><td>湖北</td><td>河南</td><td>江西</td>
+            </table>
+            <table>
+                <td class="title"><b>西北区</b></td>
+                <td>宁夏</td><td>新疆</td><td>青海</td><td>陕西</td><td>甘肃</td>
+            </table>
+            <table>
+                <td class="title"><b>美&nbsp;&nbsp;&nbsp;&nbsp;洲</b></td>
+                <td>美国</td>
+            </table>
+            <table>
+                <td class="title"><b>亚&nbsp;&nbsp;&nbsp;&nbsp;洲</b></td>
+                <td>马来西亚</td><td>日本</td><td>菲律宾</td><td>阿联酋</td><td>印尼</td><td>泰国</td>
+            </table>
+            <table>
+                <td class="title"><b>欧&nbsp;&nbsp;&nbsp;&nbsp;洲</b></td>
+                <td>俄罗斯</td>
+            </table>
+        </div>
+        <div style="float: right;width: 420px">
+            <table>
+                <td class="title"><b>西南区</b></td>
+                <td>云南</td><td>贵州</td><td>四川</td><td>重庆</td><td>西藏</td>
+            </table>
+            <table>
+                <td class="title"><b>东北区</b></td>
+                <td>辽宁</td><td>吉林</td><td>黑龙江</td>
+            </table>
+            <table>
+                <td class="title"><b>华北区</b></td>
+                <td>北京</td><td>河北</td><td>山西</td><td>天津</td><td>内蒙古</td>
+            </table>
+            <table>
+                <td class="title"><b>港澳台</b></td>
+                <td>台湾</td><td>香港</td><td>澳门</td>
+            </table>
+            <table>
+                <td class="title"><b>大洋洲</b></td>
+                <td>澳洲</td>
+            </table>
+            <table>
+                <td class="title"><b>非&nbsp;&nbsp;&nbsp;&nbsp;洲</b></td>
+                <td>埃及</td>
+            </table>
+        </div>
+    </div>
+    <div id="Federationlisp">
+        <p>版主风采</p>
+        <button onmouseover="this.className='style1'" onmouseout="this.className='style2'">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </button>
+        <img src="../images/版主风采.png">
+        <button onmouseover="this.className='style1'" onmouseout="this.className='style2'">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </button>
+        <p>全国总版主：<b>剑哥</b></p>
+    </div>
+</div>
+
+<!--会员服务-->
+<div id="view">
+    <div id="VIPserve">
+            <div class="VIPtitle">
+                <soan>会员服务</soan>
+                <button id="rotate"><span class="glyphicon glyphicon-plus"></span></button>
+            </div>
+           <table>
+               <tr>
+                   <td style="width: 400px;float: left">
+                       <a>
+                           <img style="float: left" src="../images/会员服务1.png">
+                           <div class="tbL">
+                           <p>丽江第一家酷玩房车营地开业啦</p>
+                           <span>丽江世外桃源房车营地坐落于玉水寨下方、东巴王国傍从市里七星一街乘坐6路公交车、东巴王国下。</span>
+                           <span class="glyphicon glyphicon-map-marker">云南 <button>9折</button></span>
+                           </div>
+                       </a>
+                   </td>
+                   <td style="width: 400px;float: right">
+                       <a>
+                           <img style="float: left" src="../images/会员服务4.png">
+                           <div class="tbL">
+                               <p>顺鑫装饰公司</p>
+                               <span>顺鑫装饰公司成立于2011年，以小任10年装修经验，一砖一瓦一手拉建优质的团队。</span>
+                               <span class="glyphicon glyphicon-map-marker">河北 <button>8.8折</button></span>
+                           </div>
+                       </a>
+                   </td>
+               </tr>
+           </table>
+            <table>
+                <tr>
+                    <td style="width: 400px;float: left">
+                        <a>
+                            <img style="float: left" src="../images/会员服务2.png">
+                            <div class="tbL">
+                                <p>丽江第一家酷玩房车营地开业啦</p>
+                                <span >丽江世外桃源房车营地坐落于玉水寨下方、东巴王国傍从市里七星一街乘坐6路公交车、东巴王国下。</span>
+                                <span class="glyphicon glyphicon-map-marker">黑龙江 <button>8折</button></span>
+                            </div>
+                        </a>
+                    </td>
+                    <td style="width: 400px;float: right">
+                        <a>
+                            <img style="float: left" src="../images/会员服务5.png">
+                            <div class="tbL">
+                                <p>顺鑫装饰公司</p>
+                                <span >顺鑫装饰公司成立于2011年，以小任10年装修经验，一砖一瓦一手拉建优质的团队。</span>
+                                <span class="glyphicon glyphicon-map-marker">吉林 <button>9折</button></span>
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td style="width: 400px;float: left">
+                        <a>
+                            <img style="float: left" src="../images/会员服务3.png">
+                            <div class="tbL">
+                                <p>丽江第一家酷玩房车营地开业啦</p>
+                                <span >丽江世外桃源房车营地坐落于玉水寨下方、东巴王国傍从市里七星一街乘坐6路公交车、东巴王国下。</span>
+                                <span class="glyphicon glyphicon-map-marker">重庆 <button>9折</button></span>
+                            </div>
+                        </a>
+                    </td>
+                    <td style="width: 400px;float: right">
+                        <a>
+                            <img style="float: left" src="../images/会员服务6.png">
+                            <div class="tbL">
+                                <p>顺鑫装饰公司</p>
+                                <span >顺鑫装饰公司成立于2011年，以小任10年装修经验，一砖一瓦一手拉建优质的团队。</span>
+                                <span class="glyphicon glyphicon-map-marker">浙江 <button>8.5折</button></span>
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+    </div>
+
+    <!--侧边广告-->
+    <div id="advert">
+        <a href="#"><img src="../images/广告.png"></a>
+    </div>
+</div>
+
+<!--活动-->
+<div id="view">
+    <div id="SYactivity" >
+        <div class="activityTitle">
+            <span>活动</span>
+            <button id="rotate"><span class="glyphicon glyphicon-plus"></span></button>
+        </div>
+        <dl class="sgw_img" style="margin-top: 10px">
+            <div class="sgw_img_dd2">
+                <button class="buttonL"><span class="glyphicon glyphicon-chevron-left"></span></button>
+                <dd>
+                    <img src="../images/活动1.png" width="230" height="130"/>
+                    <div class="box">
+                        <h3>报名倒计时</h3>
+                        <p><span class="glyphicon glyphicon-time"> </span> 0天 08时 03分 05秒</p>
+                        <button class="btn btn-success">我要报名</button>
+                    </div>
+                    <div style="width: 230px;margin-top: 10px">
+                        <a href="#" style="float: left;"><img style="width:30px; height: 30px; border-radius: 24px;" src="../images/新浪.png"> Djw。</a>
+                        <span style="float: right;margin-top: 5px">20小时前</span><br><br>
+                        <p style="float: left">北京市→丽江、昆明、大理、泸沽湖</p>
+                        <p style="float: left">12天丨2016.07.30 出发</p>
+                        <p style="float: left">准备七月底去云南 大概十多天 纯自由行买张机票玩累了就回来</p>
+                    </div>
+                </dd>
+                <dd>
+                    <img src="../images/活动2.png" width="230" height="130"/>
+                    <div class="box">
+                        <h3>报名倒计时</h3>
+                        <p><span class="glyphicon glyphicon-time"> </span> 0天 08时 03分 05秒</p>
+                        <button class="btn btn-success">我要报名</button>
+                    </div>
+                    <div style="width: 230px;margin-top: 10px">
+                        <a href="#" style="float: left;"><img style="width:30px; height: 30px; border-radius: 24px;" src="../images/微信.png"> 发条成</a>
+                        <span style="float: right;margin-top: 5px">2天前</span><br><br>
+                        <p>北京市→新疆、青海、敦煌、张掖</p>
+                        <p>7天丨2016.07.16 出发</p>
+                        <p>美院学生 不是跟风 就是没去过 然后临近毕业创作 希望去个空旷的地方</p>
+                    </div>
+                </dd>
+                <dd>
+                    <img src="../images/活动3.png" width="230" height="130"/>
+                    <div class="box">
+                        <h3>报名倒计时</h3>
+                        <p><span class="glyphicon glyphicon-time"> </span> 0天 08时 03分 05秒</p>
+                        <button class="btn btn-success">我要报名</button>
+                    </div>
+                    <div style="width: 230px; margin-top: 10px">
+                        <a href="#" style="float: left;"><img style="width:30px; height: 30px; border-radius: 24px;" src="../images/腾讯微博.png"> 爆小呦</a>
+                        <span style="float: right;margin-top: 5px">2天前</span><br><br>
+                        <p>重庆市→丽江、大理</p>
+                        <p>6天丨2016.07.30 出发</p>
+                        <p>美院学生 不是跟风 就是没去过 然后临近毕业创作 希望去个空旷的地方</p>
+                    </div>
+                </dd>
+                <button class="buttonR"><span class="glyphicon glyphicon-chevron-right"></span></button>
+            </div>
+        </dl>
+    </div>
+
+    <!--侧边广告-->
+    <div id="advert">
+        <a href="#"><img src="../images/xk广告.png"></a>
+    </div>
+</div>
+
+<!--1190*80广告位-->
+<div id="view" >
+    <a style="margin-top: 20px;float: left" href="#"><img src="../images/底部广告.png"></a>
+</div>
+
+<!--小图片轮播 最新主题/最新回复 官方公告-->
+<div id="view">
+        <!--小图片轮播-->
+        <div id="myCarousel" style="width: 390px;height: 300px;float: left;margin-top: 20px;" class="carousel slide">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="../images/小轮播1.png" alt="First slide">
+                </div>
+                <div class="item">
+                    <img src="../images/小轮播2.png" alt="Second slide">
+                </div>
+                <div class="item">
+                    <img src="../images/小轮播3.png" alt="Third slide">
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="carousel-control left" href="#myCarousel"
+               data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#myCarousel"
+               data-slide="next">&rsaquo;</a>
+        </div>
+
+        <!--最新主题/最新回复-->
+        <div id="newssm" style="margin-top: 20px;">
+            <div class="side">
+                <div class="top">
+                    <span class="title"><b>最新主题</b>&nbsp;丨</span>
+                    <span class="title"><b>最新回复</b></span>
+                    <button><span class="glyphicon glyphicon-plus"></span></button>
+                </div>
+                <ul>
+                    <li>
+                        <img src="../images/圆点.png" style="margin-left: 3px;"/>
+                        <a href="" style="line-height: 25px; margin-left: 5px;">自驾e族晋中分会最爱青海，中卫自驾六日游</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png" style="margin-left: 3px;"/>
+                        <a href="" style="line-height: 30px; margin-left: 5px;">自驾e族山西总会最爱青海，中卫自驾六日游活动招募中</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">最近油耗很不稳啊，能说说啥原因</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">每日一句</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">晋中小宝前来签到</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">四月末，美丽的伏牛山丹江口水库武当山休息度假游</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">“金骨春雪·花海双谷”大型户外露营狂欢活动招募令</a>
+                    </li>
+                    <li style="border-bottom:none;">
+                        <img src="../images/圆点.png">
+                        <a href="">世界上颜值最高的景观公路</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    <!--290 x 300  官方公告-->
+    <div id="SYofficial" style="float: right;">
+        <div class="top">
+            <span class="title">官方公告</span>
+            <button><span class="glyphicon glyphicon-plus"></span></button>
+        </div>
+        <ul>
+            <li><span></span><a href="#">关于撤销温州分会版主（ID：开心果）的说明</a></li>
+            <li><span></span><a href="#">自驾e族活动免除责任申明书</a></li>
+            <li><span></span><a href="#">祝贺西北风就任山西总会-沂州分会版主</a></li>
+            <li><span></span><a href="#">祝贺阳关故人就任甘肃总会-酒泉分会副版主</a></li>
+            <li><span></span><a href="#">祝贺牧野大山就任甘肃总会-兰州分会版主</a></li>
+            <li><span></span><a href="#">祝贺糖果就任上海总会-浦东分会版主</a></li>
+            <li><span></span><a href="#">祝贺山和水就任自驾e族甘肃总会-平阳分会版主</a></li>
+            <li><span></span><a href="#">祝贺张宇就任河南总会副总版主</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<!--官方活动 会员交流 公益救援-->
+<div id="view">
+    <!--官方活动 390 x 300-->
+    <div id="GFactivity">
+        <div class="side">
+            <div class="top">
+                <span class="title"><b>官方活动</b></span>
+                <button style="border:" id="rotate1"><span style="font-size: 20px" class="glyphicon glyphicon-plus"></span></button>
+            </div>
+                <div>
+                    <div>
+                        <img src="../images/官方活动t1.png">
+                    </div>
+                    <div>
+                        <span>【活动召集】"夏日激情 飞越太行"2016太行山穿越</span>
+                    </div>
+                </div>
+            <ul>
+                <li>
+                    <img src="../images/圆点.png">
+                    <a href="">自驾e族走进2016年环塔拉力赛</a>
+                </li>
+                <li>
+                    <img src="../images/圆点.png">
+                    <a href="">通告：大型活动华东运营中心人员公布及分管内容</a>
+                </li>
+                <li>
+                    <img src="../images/圆点.png">
+                    <a href="">【活动报道】穿越四明山--全程纪录片</a>
+                </li>
+                <li>
+                    <img src="../images/圆点.png">
+                    <a href="">大型活动板块官方策划团队之菜鸟策划</a>
+                </li>
+                <li>
+                    <img src="../images/圆点.png">
+                    <a href="">大型活动团队名单</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--会员交流-->
+    <div id="SYvip">
+        <div class="side">
+            <div class="top">
+                <span class="title"><b>会员交流</b></span>
+                <button><span class="glyphicon glyphicon-plus"></span></button>
+            </div>
+            <div style="width: 280px;float: left">
+                <ul>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">通告：大型活动华东营运中心人员公布及分管</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">【活动报道】穿越四明山--全程纪录片</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">大型活动板块官方策划团队之菜鸟策划</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">大型活动团队名单</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">怀梦入疆，魂牵喀拉峻</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">背包客眼中的旅游</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">木之多而成森，众之减而成人</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">元旦，生日蛋糕送给每一位朋友</a>
+                    </li>
+                </ul>
+            </div>
+            <div style="float: left;height: 260px;width: 180px ">
+                <ul>
+                    <li>
+                        <a>
+                            <img src="../images/会员交流t1.png">
+                            <p>绿光摇曳，乌孙公主的摇曳</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="../images/会员交流t2.png">
+                            <p>美国养狗证上面的9句话</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--公益救援-->
+    <div id="SYofficial">
+        <div class="top">
+            <span class="title"><b>公益救援</b></span>
+            <button><span class="glyphicon glyphicon-plus"></span></button>
+        </div>
+        <ul>
+            <li><span></span><a href="#">自驾e族贵州黔东南分会雨黎榕从分会公</a></li>
+            <li><span></span><a href="#">九潮黎平爱心捐助活动感谢信</a></li>
+            <li><span></span><a href="#">黎平6.10洪灾</a></li>
+            <li><span></span><a href="#">黎平6.10洪灾募捐倡议</a></li>
+            <li><span></span><a href="#">爱在黎平“景坤御瓷·景德镇陶瓷专卖店”</a></li>
+            <li><span></span><a href="#">自驾e族贵州黔东南分会高考爱心专送车</a></li>
+            <li><span></span><a href="#">贵州黔东南分会公益活动</a></li>
+            <li><span></span><a href="#">赤城山区孤寡老人需要您的援手！</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--885 x 80 广告  + 290 x 80 自驾e族手机壁纸-->
+<div id="view" style="margin-top: 20px;height: 80px">
+    <!--左侧 885 x 80广告位-->
+    <div class="left" style="margin-top: 20px">
+        <a><img src="../images/885x80广告.png"></a>
+    </div>
+    <!--右侧 290 x 80 自驾e族手机壁纸-->
+    <div class="right" style="margin-top: 20px">
+        <a><img src="../images/自驾壁纸.png"></a>
+    </div>
+</div>
+
+<!--联盟、车型、排行榜-->
+<div id="view">
+    <!--联盟  390x300-->
+        <div id="SYalliance">
+            <div class="side">
+                <div class="top">
+                    <span class="title"><b>联盟</b></span>
+                    <button><span class="glyphicon glyphicon-plus"></span></button>
+                </div>
+                <ul>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">腾辉自驾游俱乐部周年庆典</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">战狼腾辉自驾游俱乐部成立仪式</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">跃辉夏天洗车还需要注意这些 车主应该学学！</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">彭耀华车最好几天开一回</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">辉哥土耳其政变结束！至少60人死亡，754名军人</a>
+                    </li>
+                    <li>
+                        <div style="width: 360px;height: 80px;)">
+                            <a><img src="../images/联盟t1.png"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <!--车型俱乐部 480x300    -->
+    <div id="SYcarclub">
+            <div class="top">
+                <span class="title">车型</span>
+                <button><span class="glyphicon glyphicon-plus"></span></button>
+            </div>
+            <table style="margin-top: 15px">
+                <tr>
+                    <td ><a><img src="../images/车型俱乐部1.png"><p>绿光摇曳，乌孙公主的绿光摇曳绿光摇曳</p></a></td>
+                    <td><a><img src="../images/车型俱乐部2.png"><p>绿光摇曳，乌孙公主的绿光摇曳绿光摇曳</p></a></td>
+                    <td><a><img src="../images/车型俱乐部3.png"><p>绿光摇曳，乌孙公主的绿光摇曳绿光摇曳</p></a></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><a><img src="../images/车型俱乐部4.png"><p>绿光摇曳，乌孙公主的绿光摇曳绿光摇曳</p></a></td>
+                    <td><a><img src="../images/车型俱乐部5.png"><p>绿光摇曳，乌孙公主的绿光摇曳绿光摇曳</p></a></td>
+                    <td><a><img src="../images/暂无图片140x80.png"><p>绿光摇曳，乌孙公主的绿光摇曳绿光摇曳</p></a></td>
+                </tr>
+            </table>
+    </div>
+    <!--排行榜 290x300-->
+        <div id="SYrankinglist">
+            <div class="top">
+                <span class="title">会员</span>
+                <span class="title">分会</span>
+                <span class="title">联盟</span>
+            </div>
+            <ul>
+                <li><span class="label label-success">1</span><img src="../images/小头像方.png"><a href="#">eisdl</a><P>150202</P></li>
+                <li><span class="label label-warning">2</span><img src="../images/小头像方.png"><a href="#">xiaozoumin</a><P>120000</P></li>
+                <li><span class="label label-default">3</span><img src="../images/小头像方.png"><a href="#">一米阳光</a><P>80000</P></li>
+                <li><span class="label label-info">4</span><img src="../images/小头像方.png"><a href="#">陇南同城网</a><P>23454</P></li>
+                <li><span class="label label-info">5</span><img src="../images/小头像方.png"><a href="#">邓维红</a><P>12335</P></li>
+                <li><span class="label label-info">6</span><img src="../images/小头像方.png"><a href="#">戴李</a><P>8258</P></li>
+                <li><span class="label label-info">7</span><img src="../images/小头像方.png"><a href="#">God</a><P>6150</P></li>
+                <li><span class="label label-info">8</span><img src="../images/小头像方.png"><a href="#">list</a><P>5781</P></li>
+                <li><span class="label label-info">9</span><img src="../images/小头像方.png"><a href="#">李小天</a><P>3210</P></li>
+                <li><span class="label label-info">10</span><img src="../images/小头像方.png"><a href="#">小迟</a><P>800</P></li>
+            </ul>
+        </div>
+
+</div>
+
+<!--商城/积分商城/扫一扫/即享-在路上-->
+<div id="view">
+    <!--商城 885 x 480-->
+    <div id="SYmall">
+        <h4 class="title">商城</h4>
+    </div>
+    <!--积分商城/扫一扫/即享-在路上-->
+    <div class="right">
+        <ul>
+            <li style="margin-bottom: 10px"><a><img src="../images/积分商城.png"></a></li>
+            <li style="margin-bottom: 10px"><a><img src="../images/扫一扫.png"></a></li>
+            <li style="margin-bottom: 10px"><a><img src="../images/即享-在路上.png"></a></li>
+        </ul>
+    </div>
+</div>
+
+<!--底部1190 x 80广告位-->
+<div id="view">
+    <a class="left"><img src="../images/底部长广告.png"></a>
+</div>
+
+<!--路书-->
+<div id="view">
+    <div id="SYroadbook">
+        <div class="Dleft">
+            <a><img src="../images/底部路书1.png"></a>
+        </div>
+        <div class="Dleft1">
+            <table>
+                <tr>
+                    <td><a><img src="../images/底部路书2.png"></a></td><td class="Dtd"><a><img src="../images/底部路书3.png"></a></td>
+                </tr>
+                <tr>
+                    <td><a><img src="../images/底部路书4.png"></a></td><td class="Dtd"><a><img src="../images/底部路书5.png"></a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="Dleft1">
+            <a><img src="../images/底部路书6.png"></a>
+            <a style="margin-left: 5px"><img src="../images/底部路书7.png"></a>
+        </div>
+        <div class="Dright">
+            <ul>
+                <li><a><img src="../images/底部路书8.png"></a></li>
+                <li><a><img src="../images/底部路书9.png"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div style="clear:both; height: 75px;"></div>
+
+<footer>
+    <div class="a_div">
+        <img src="../images/a.jpg" style="width: 30px; height: 30px; border-radius: 30px; margin-left: 40px; margin-right: 10px;"/>
+        <a href="">黑蝙蝠车队</a>
+        <a href="">爱卡汽车</a>
+        <a href="">汽车之家</a>
+        <a href="">中国越野</a>
+        <a href="">爱车一族</a>
+        <a href="">纵横天下</a>
+        <a href="">河北赛车网</a>
+    </div>
+    <div class="bq_div" style="width: 910px; margin: 22px auto 0;">
+        <img src="../images/app.png" style="margin-right: 10px;" />
+        <img src="../images/weixin.png" style="margin-right: 10px;" />
+        <img src="../images/beian.png" style="margin-right: 10px;" />
+        <img src="../images/gaba.png" />
+    </div>
+    <div style="width: 600px; margin: 22px auto 0;">
+        <p style="color: #7E7E7E;">中国大型的自驾游主题平台。想自驾，来自驾e族！网址：www.fbtrip.cn,官方微信号：fbtrip-cn</p>
+        <p style="text-align: center; color: #B5B5B5;">版权所有：自驾e族 © 2014-2016 www.fbtrip.cn</p>
+    </div>
+</footer>
+
+
+
+<script>
+    $(function () { $("[data-toggle='tooltip']").tooltip(); });
+
+    $(function(){
+        $('.sgw_img dt').hover(function(){
+            $(this).children('.box').stop(true,true).delay(100).animate({'top':0,opacity:0.8},300);
+        },function(){
+            $(this).children('.box').stop(true,true).animate({'top':-482,opacity:0},200);
+        })
+        $('.sgw_img dd').hover(function(){
+            $(this).children('.box').stop(true,true).delay(100).animate({'top':0,opacity:0.8},300);
+        },function(){
+            $(this).children('.box').stop(true,true).animate({'top':-382,opacity:0},200);
+        })
+    });
+
+    $("#rotate1").rotate({
+        bind:
+        {
+            mouseover : function() {
+                $(this).rotate({animateTo:180});
+            },
+            mouseout : function() {
+                $(this).rotate({animateTo:0});
+            }
+        }
+    });
+</script>
+</body>
+</html>
+
+<!--<div style="overflow:auto;width:100%">-->
+    <!--<div style="height:400px; width:480px;overflow-x:auto">-->
+        <!--<div style="width:1200px;height:380px;background:#f00;"></div>-->
+        <!--<div style="width:1200px;height:380px;background:blue;"></div>-->
+        <!--<div style="width:1200px;height:380px;background:black;"></div>-->
+    <!--</div>-->
+<!--</div>-->

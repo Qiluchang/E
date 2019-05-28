@@ -1,0 +1,64 @@
+*{margin: 0; padding: 0;}
+header,nav{height: 50px;}
+
+/*全局宽度1200*/
+#view{width: 1200px; margin: 0 auto;}
+
+/*左侧div占890*/
+#left{float: left; width: 890px; border: 1px solid #D8E2EE; height: 1600px; margin-top: 20px;}
+#left_top{float: left; width: 890px; border: 1px solid #D8E2EE; height: 350px;}
+/*右侧div占290*/
+#right{float: right; width: 290px; margin-top: -350px; border: 1px solid #D8E2EE;}
+/*中间间距20*/
+
+#left .list{width: 100%;}
+#right .side{width: 100%;}
+
+/*筛选*/
+#left_top .list{width: 100%;}
+
+#left_top .list .top{background: #F8FAF9; height: 45px}
+
+#left_top .list .title {line-height: 45px; font-size: 18px; color: #666867; text-indent: 1em;}
+
+
+/*大体*/
+#left .list .top{background: #F8FAF9; height: 45px}
+#left .list .title {line-height: 45px; font-size: 18px; color: #666867; text-indent: 1em;}
+
+#left .list .text .img{border: 1px solid #E3E5E4; float: left; margin-top: 15px; margin-left: 15px; margin-right: 20px;}
+
+#left .list .text .right_div {float: left; width: 600px;}
+
+#left .list .text .right_div .div_h4{margin-top: 23px;}
+
+#left .list .text .right_div .div_h4 .div_a{color: black; text-decoration:none;}
+
+#left .list .text .right_div .div_p{font-size: 14px; line-height: 25px; margin-top: 10px;}
+#left .list .text .right_div .div_p .div_a{color: #9A9A9A; text-decoration:none;}
+
+.start_btn{margin-left: 275px;}
+
+.stice{width: 32px; height: 18px; border-radius: 2px; font-size: 5px; text-indent: -6px; line-height: 7px;}
+
+.icon{font-size: 20px; color: #D8D8D8;}
+
+.hr{width: 95%; margin: 38px auto 8px;}
+
+/*以下是服务分类*/
+#right .side .top{background: #F8FAF9; height: 30px}
+#right .side .title {line-height: 30px; font-size: 14px; text-indent: 1em; color: #666867;}
+
+.fuwu a {color: black; text-decoration:none;}
+
+/*广告*/
+#advert{width: 290px; height: 335px; margin-top: -80px; float: right;}
+
+.select li{list-style:none;padding:10px 0 5px 66px}
+.select dl{zoom:1;position:relative;line-height:32px;}
+.select dl:after{content:" ";display:block;clear:both;height:0;overflow:hidden}
+.select span{width:100px; position:absolute;top:0;left:-100px;text-align:right;height:24px;line-height:32px}
+.select dd{float:left;display:inline;margin:2px 0 5px 23px;}
+.select a{display:inline-block;white-space:nowrap;height:32px;padding:6px 10px;text-decoration:none;color:black;border-radius:2px;}
+.select a:hover{color:#2F622A;background-color:#f3edc2}
+.select .selected a{color:#fff;background-color:#15BE7D}

@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--待定-->
+    <meta charset="UTF-8">
+    <title>路书显示</title>
+     <link href="../../lib/SmaLove/web/Road_bookNav.css" rel="stylesheet" />
+    <link href="../../lib/bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet"/>
+   
+    <link href="../../lib/public_style.css" rel="stylesheet" />
+    <script src="../../lib/jquery-2.2.3.js"></script>
+    <script src="../../lib/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+</head>
+<script>
+    $(document).ready(function(){
+        $("#myNav").affix({
+            offset: {
+                top: $('#ee').offset().top
+//                bottom: $('#end').offset().top
+            }
+        });
+    });
+</script>
+<style>
+    .main_button {
+        background: #14BF7D;
+    }
+    .main_button:hover {
+        background: #109360;
+    }
+</style>
+
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=XsG7pGgheA9uRNIx6g9wPNfoCGveDFDW"></script>
+
+<body data-spy="scroll" data-target="#myScrollspy">
+<!--头部-->
+<header style="height: 30px;background: #505d4b">头部</header>
+<div id="view">
+    <div style="margin-top: 20px">
+        <div class="pull-left">
+            <img src="../images/zjtb.png">
+        </div>
+
+        <!--头部 290 x 60 广告位-->
+        <div class="pull-right">
+            <a href="#"><img src="../images/290x60gg.png"></a>
+        </div>
+
+        <!--头部搜索框-->
+        <div class="pull-right" style="width: 500px;margin-right: 20px">
+            <div class="input-group">
+                <input type="text" style="border-radius: 0px" class="form-control" placeholder="请输入关键词搜索">
+                <span class="input-group-btn ">
+                    <button class="btn btn-default" type="button" style="background: #00a666;color: #FFFFFF;width: 70px;border-radius: 0">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </span>
+            </div><!-- /input-group -->
+            <div style="margin-top: 10px">
+                <a href="#">自驾e族</a>&nbsp;&nbsp;&nbsp;
+                <a href="#">自驾游</a>&nbsp;&nbsp;&nbsp;
+                <a href="#">版主大会</a>&nbsp;&nbsp;&nbsp;
+                <a href="#">大型活动</a>
+            </div>
+        </div><!-- /.col-lg-6 -->
+    </div>
+
+<!--1190 x 80广告位-->
+<div class="left">
+    <div class="left">
+        <!-- <p>导航栏</p> -->
+    </div>
+    <a href="#"><img style="width: 1200px;margin-top: 20px;" src="../images/cguangg.png"></a>
+</div>
+
+<div id="view">
+    <div style="margin: 15px 0;">当前位置 : <span>首页 > 路书</span></div>
+    <div id="lunkuo">
+        <!--中间自适应-->
+        <div id="center">
+            <!--头部-->
+            <div class="center_top">
+                <div class="center_text">
+                    <h2 class="oneTitle"><b>成都到青海湖自驾游线路图及攻略</b></h2>
+                    <span class="center_www">自驾e族官网 www.fbtrip.cn 2016-07-16</span>
+                    <span>　来源：自驾e族原创</span>
+                    <span>　访问：512次</span>
+                </div>
+                <div class="center_left">
+                    <img src="../images/分享.png" class="left_fenxiang"/>
+                    <a href=""><img src="../images/新浪.png" class="left_jiekou"/></a>
+                    <a href=""><img src="../images/微信.png" class="left_jiekou"/></a>
+                    <a href=""><img src="../images/qq.png" class="left_jiekou"/></a>
+                    <a href=""><img src="../images/QQ空间.png" class="left_jiekou"/></a>
+                    <a href=""><img src="../images/腾讯微博.png" class="left_jiekou"/></a>
+
+                    <img src="../images/竖线.png" class="left_shuxian"/>
+                </div>
+                <div class="pinglun">
+                    <span class="pinglun_text">39</span><span> 评论</span>
+                    <a href="#1F"><img src="../images/评论.png" class="pinglun_href"/></a>
+                </div>
+
+                <div class="center_right">
+                    <span>作者：</span>
+                    <span class="right_text"><img src="../images/微信.png" class="right_img" /> 会员服务</span>
+                    <button class="btn btn-default" style="border: 1px solid #00A666;line-height: 10px;text-indent: -0.6em;color: #00A666;width: 50px;height: 23px;">+ 关注</button>
+                </div>
+
+                <hr class="center_top_right_hr"/>
+            </div>
+
+            <!--广告-->
+            <div class="guanggao_margin">
+                <img src="../images/cguangg.png" class="guanggao_margin_img" />
+            </div>
+
+            <!--正文加图片-->
+            <div class="zhengwen">
+                <div class="ditu">
+                    <div id="map" style="height: 339px;"></div>
+                </div>
+
+                <div class="jianjie_margin">
+                    <h4><img src="../images/绿线.png" /><b>　简介</b></h4>
+                    <div class="jianjie_text">
+                        <p>
+                            青海湖又名“措温布”，即藏语“青色的海”之意，位于青海省西北部的青海湖盆地内，既是中国最大的内陆湖泊，也是中国最大的咸水湖。
+                            由祁连山的打通山、日月山与青海南山之间的断层陷落形成。
+                        </p>
+                        <p>
+                            青海湖地处高原，在7、8月份日平均气温也只有15度左右，此时是青海湖最美之时，欢呼千亩油菜花竞相绽放，碧波万顷的湛蓝外围散布着
+                            金婵婵的亮黄，高山牧场的野花五彩缤纷，如绸似锦，数不尽的牛羊膘肥体壮，点缀其间。
+                        </p>
+                        <p>2012年7月30日，青海省气象科学研究所最新的遥感监测结果显示，青海湖面积持续8年增大。</p>
+                    </div>
+                </div>
+
+                <div class="jianjie_title" id="ee">
+                    <div class="jianjie_neikuang">
+                        <p class="jianjie_biaoti">即享内容</p>
+                    </div>
+                </div>
+
+                <div class="xingcheng" id="section-1">
+                    <div class="xingcheng_margin">
+                        <h4><img src="../images/绿线.png" /><b>　第一天成都-汶川---若尔盖（500KM）</b></h4>
+                        <hr class="xingcheng_hr"/>
+                    </div>
+                    <div class="xingcheng_text">
+                        <p>
+                            早晨08:00在成灌高速入口处集合，08:30准时出发，经汶川后抵达茂县，在茂县午餐，
+                            午餐后驱车前往松潘、川主寺，最后抵达若尔盖，全程约500公里，7小时左右。虽然路途遥远，
+                            但风光独特。然后入住酒店。
+                        </p>
+                        <p>
+                            行程特点:欣赏峡谷风光，感受独特的藏族风情，感受大自然强大的力量，生命的脆弱，体验地震灾区人民重建家园的强大决心。
+                        </p>
+                        <div class="xingcheng_img">
+                            <img src="../images/路书.png" class="img_width" />
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="xingcheng" id="section-2">
+                    <div class="xingcheng_margin">
+                        <h4><img src="../images/绿线.png" /><b>　第一天成都-汶川---若尔盖（500KM）</b></h4>
+                        <hr class="xingcheng_hr"/>
+                    </div>
+                    <div class="xingcheng_text">
+                        <p>
+                            早晨08:00在成灌高速入口处集合，08:30准时出发，经汶川后抵达茂县，在茂县午餐，
+                            午餐后驱车前往松潘、川主寺，最后抵达若尔盖，全程约500公里，7小时左右。虽然路途遥远，
+                            但风光独特。然后入住酒店。
+                        </p>
+                        <p>
+                            行程特点:欣赏峡谷风光，感受独特的藏族风情，感受大自然强大的力量，生命的脆弱，体验地震灾区人民重建家园的强大决心。
+                        </p>
+                        <div class="xingcheng_img">
+                            <img src="../images/路书.png" class="img_width" />
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="xingcheng" id="section-3">
+                    <div class="xingcheng_margin">
+                        <h4><img src="../images/绿线.png" /><b>　第一天成都-汶川---若尔盖（500KM）</b></h4>
+                        <hr class="xingcheng_hr"/>
+                    </div>
+                    <div class="xingcheng_text">
+                        <p>
+                            早晨08:00在成灌高速入口处集合，08:30准时出发，经汶川后抵达茂县，在茂县午餐，
+                            午餐后驱车前往松潘、川主寺，最后抵达若尔盖，全程约500公里，7小时左右。虽然路途遥远，
+                            但风光独特。然后入住酒店。
+                        </p>
+                        <p>
+                            行程特点:欣赏峡谷风光，感受独特的藏族风情，感受大自然强大的力量，生命的脆弱，体验地震灾区人民重建家园的强大决心。
+                        </p>
+                        <div class="xingcheng_img">
+                            <img src="../images/路书.png" class="img_width" />
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="xingcheng" id="section-4">
+                    <div class="xingcheng_margin">
+                        <h4><img src="../images/绿线.png" /><b>　第一天成都-汶川---若尔盖（500KM）</b></h4>
+                        <hr class="xingcheng_hr"/>
+                    </div>
+                    <div class="xingcheng_text">
+                        <p>
+                            早晨08:00在成灌高速入口处集合，08:30准时出发，经汶川后抵达茂县，在茂县午餐，
+                            午餐后驱车前往松潘、川主寺，最后抵达若尔盖，全程约500公里，7小时左右。虽然路途遥远，
+                            但风光独特。然后入住酒店。
+                        </p>
+                        <p>
+                            行程特点:欣赏峡谷风光，感受独特的藏族风情，感受大自然强大的力量，生命的脆弱，体验地震灾区人民重建家园的强大决心。
+                        </p>
+                        <div class="xingcheng_img">
+                            <img src="../images/路书.png" class="img_width" />
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="xingcheng" id="section-5">
+                    <div class="xingcheng_margin">
+                        <h4><img src="../images/绿线.png" /><b>　第一天成都-汶川---若尔盖（500KM）</b></h4>
+                        <hr class="xingcheng_hr"/>
+                    </div>
+                    <div class="xingcheng_text">
+                        <p>
+                            早晨08:00在成灌高速入口处集合，08:30准时出发，经汶川后抵达茂县，在茂县午餐，
+                            午餐后驱车前往松潘、川主寺，最后抵达若尔盖，全程约500公里，7小时左右。虽然路途遥远，
+                            但风光独特。然后入住酒店。
+                        </p>
+                        <p>
+                            行程特点:欣赏峡谷风光，感受独特的藏族风情，感受大自然强大的力量，生命的脆弱，体验地震灾区人民重建家园的强大决心。
+                        </p>
+                        <div class="xingcheng_img">
+                            <img src="../images/路书.png" class="img_width" />
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="xingcheng" id="section-6">
+                    <div class="xingcheng_margin">
+                        <h4><img src="../images/绿线.png" /><b>　第一天成都-汶川---若尔盖（500KM）</b></h4>
+                        <hr class="xingcheng_hr"/>
+                    </div>
+                    <div class="xingcheng_text">
+                        <p>
+                            早晨08:00在成灌高速入口处集合，08:30准时出发，经汶川后抵达茂县，在茂县午餐，
+                            午餐后驱车前往松潘、川主寺，最后抵达若尔盖，全程约500公里，7小时左右。虽然路途遥远，
+                            但风光独特。然后入住酒店。
+                        </p>
+                        <p>
+                            行程特点:欣赏峡谷风光，感受独特的藏族风情，感受大自然强大的力量，生命的脆弱，体验地震灾区人民重建家园的强大决心。
+                        </p>
+                        <div class="xingcheng_img">
+                            <img src="../images/路书.png" class="img_width" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sidbar_float" id="bb">
+                    <div id="myScrollspy">
+                        <ul class="nav nav-tabs nav-stacked sidbar_ul" id="myNav">
+                            <li class="sidbar_title">即享目录</li>
+                            <li class="active"><a href="#section-1">第1天成都-汶川---若尔盖（500KM）</a></li>
+                            <li><a href="#section-2">第2天若尔盖-合作--临夏（约520KM）</a></li>
+                            <li><a href="#section-3">第3天临夏-青海湖</a></li>
+                            <li><a href="#section-4">第4天青海湖</a></li>
+                            <li><a href="#section-5">第5天青海湖-西宁-兰州（约390KM）</a></li>
+                            <li><a href="#section-6">第6天兰州-天水-宝鸡(约470KM)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--表态- - -->
+            <div class="biaotai_margin" id="end">
+                <p>刚表过态的朋友（15人）</p>
+                <!--头像-->
+                <div>
+                    <a href=""><img src="../images/头像.png" class="touxiang" /></a>
+                    <a href=""><img src="../images/头像.png" class="touxiang" /></a>
+                    <a href=""><img src="../images/头像.png" class="touxiang" /></a>
+                    <a href=""><img src="../images/头像.png" class="touxiang" /></a>
+                    <a href=""><img src="../images/头像.png" class="touxiang" /></a>
+                    <a href=""><img src="../images/更多.png" class="gengduo" /></a>
+                </div>
+                <!--分享到-->
+                <div class="fenxiang_margin">
+                    <div>
+                        <span>分享到 : </span>
+                        <a href="" ><img src="../images/s腾讯微博.png" class="jiekou" /></a>
+                        <a href="" ><img src="../images/sqq空间.png" class="jiekou" /></a>
+                        <a href="" ><img src="../images/sQQ.png" class="jiekou" /></a>
+                        <a href="" ><img src="../images/s新浪.png" class="jiekou" /></a>
+                        <a href="" ><img src="../images/s微信.png" class="jiekou" /></a>
+                    </div>
+                    <!--赞和收藏-->
+                    <div class="zan_margin">
+                        <!--一个button是一个按钮-->
+                        <button class="btn btn-default zan_btn">
+                            <span class="glyphicon glyphicon-thumbs-up zan_tubiao"></span>
+                            <span class="zanzi">赞</span>
+                            <span class="shuliang"> 158</span>
+                        </button>
+
+                        <button class="btn btn-default shoucang_btn">
+                            <span class="glyphicon glyphicon-star-empty shoucang_tubiao"></span>
+                            <span class="shoucang_zi">收藏本文</span>
+                        </button>
+                    </div>
+                </div>
+                <div style="height: 45px;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--评论区域-->
+    <div class="pinglun_margin">
+        <div class="pinglun_padding" id="1F">
+
+            <span class="glyphicon glyphicon-comment pinglun_tubiao"></span><span class="pinglun_title"> 热门评论</span>
+            <hr class="pinglun_hr"/>
+            <p class="pinglun_tishi">温馨提示 : 留言中请不要而已攻击国家，其它用户及工作人员，不要发布任何广告性质的留言。</p>
+
+            <textarea class="form-control" rows="8" style="margin-top: 20px;" placeholder="请写下您的留言..."></textarea>
+
+            <div style="float: right;  margin-top: 20px;  margin-left: 15px;">
+                <button class="btn btn-danger main_button" style="background: #14BF7D;  border: 1px solid #14BF7D;  width: 150px;  height: 40px;">立即评论</button>
+            </div>
+            <div class="pinglun_zhuce">
+                <span>还没有账号？点此</span><a href="">注册</a>
+            </div>
+            <!--留言显示-->
+            <div style="margin-top: 40px;">
+                <div class="liuyan_margin">
+                    <img src="../images/头像.png" class="liuyan_img"/>
+                    <div class="liuyan_time">
+                        <span>kenn3646</span><span>2016/03/22</span>
+                        <p>不错不错！</p>
+                    </div>
+                </div>
+                <hr class="liuyan_hr"/>
+
+                <div class="liuyan_margin">
+                    <img src="../images/头像.png" class="liuyan_img"/>
+                    <div class="liuyan_time">
+                        <span>kenn3646</span><span>2016/03/22</span>
+                        <p>不错不错！</p>
+                    </div>
+                </div>
+                <hr class="liuyan_hr"/>
+
+                <div class="liuyan_margin">
+                    <img src="../images/头像.png" class="liuyan_img"/>
+                    <div class="liuyan_time">
+                        <span>kenn3646</span><span>2016/03/22</span>
+                        <p>不错不错！</p>
+                    </div>
+                </div>
+                <hr class="liuyan_hr"/>
+
+                <div class="liuyan_margin">
+                    <img src="../images/头像.png" class="liuyan_img"/>
+                    <div class="liuyan_time">
+                        <span>kenn3646</span><span>2016/03/22</span>
+                        <p>不错不错！</p>
+                    </div>
+                </div>
+                <hr class="liuyan_hr"/>
+
+                <div class="liuyan_margin">
+                    <img src="../images/头像.png" class="liuyan_img"/>
+                    <div class="liuyan_time">
+                        <span>kenn3646</span><span>2016/03/22</span>
+                        <p>不错不错！</p>
+                    </div>
+                </div>
+                <hr class="liuyan_hr"/>
+            </div>
+
+
+            <div class="jiazai">
+                <a href="" class="jiazai_href">加载更多 > ></a>
+            </div>
+        </div>
+    </div>
+
+    <!--广告-->
+    <div style="margin-top: 20px;">
+        <img src="../images/cguangg.png" style="width: 1200px; height: 80px;" />
+    </div>
+</div>
+<div style="clear:both; height: 35px;"></div>
+
+<footer>
+    <div class="a_div">
+        <img src="../images/a.jpg"/>
+        <a href="">黑蝙蝠车队</a>
+        <a href="">爱卡汽车</a>
+        <a href="">汽车之家</a>
+        <a href="">中国越野</a>
+        <a href="">爱车一族</a>
+        <a href="">纵横天下</a>
+        <a href="">河北赛车网</a>
+    </div>
+    <div class="bq_div">
+        <img src="../images/app.png" style="margin-right: 10px;" />
+        <img src="../images/weixin.png" style="margin-right: 10px;" />
+        <img src="../images/beian.png" style="margin-right: 10px;" />
+        <img src="../images/gaba.png" />
+    </div>
+    <div class="www">
+        <p class="p1">中国大型的自驾游主题平台。想自驾，来自驾e族！网址：www.fbtrip.cn,官方微信号：fbtrip-cn</p>
+        <p class="p2">版权所有：自驾e族 © 2014-2016 www.fbtrip.cn</p>
+    </div>
+</footer>
+</body>
+
+<script type="text/javascript">
+    // 创建地图实例，后面的是上面DIV的ID
+    var map = new BMap.Map("map");
+    //创建一个坐标，并且初始化地图，设置中心点坐标和地图级别
+    //	map.centerAndZoom("合肥", 13);
+    var point = new BMap.Point(116.331398,39.897445);
+    map.centerAndZoom(point,12);
+    map.addControl(new BMap.MapTypeControl()); //添加地图类型控件
+    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+
+    //定位
+    var navigationControl = new BMap.NavigationControl({
+        // 靠左上角位置
+        anchor: BMAP_ANCHOR_TOP_LEFT,
+        // LARGE类型
+        type: BMAP_NAVIGATION_CONTROL_LARGE,
+        // 启用显示定位
+        enableGeolocation: false
+    });
+    map.addControl(navigationControl);
+    // 添加定位控件
+    var geolocationControl = new BMap.GeolocationControl();
+    geolocationControl.addEventListener("locationSuccess", function(e){
+        // 定位成功事件
+        var address = '';
+        address += e.addressComponent.province;
+        address += e.addressComponent.city;
+        address += e.addressComponent.district;
+        address += e.addressComponent.street;
+        address += e.addressComponent.streetNumber;
+        alert("当前定位地址为：" + address);
+    });
+    geolocationControl.addEventListener("locationError",function(e){
+        // 定位失败事件
+        alert(e.message);
+    });
+    map.addControl(geolocationControl);
+
+    //定位提示
+    function myFun(result){
+        var cityName = result.name;
+        map.setCenter(cityName);
+        alert("当前定位城市:"+cityName);
+    }
+    var myCity = new BMap.LocalCity();
+    myCity.get(myFun);
+
+
+
+    var marker = new BMap.Marker(new BMap.Point(117.282888, 31.866977)); // 创建点
+
+    //添加覆盖物
+    function add_overlay(){
+        map.addOverlay(marker);            //增加点
+    }
+    //清除覆盖物
+    function remove_overlay(){
+        map.clearOverlays();
+    }
+
+    //获取经纬度
+    //	function showInfo(e){
+    //		alert(e.point.lng + ", " + e.point.lat);
+    //	}
+    //	map.addEventListener("click", showInfo);
+
+
+    var content = '<div style="margin:0;line-height:20px;padding:2px;">' +
+            '<img src="../img/baidu.jpg" alt="" style="float:right;zoom:1;overflow:hidden;width:100px;height:100px;margin-left:3px;"/>' +
+            '地址：北京市海淀区上地十街10号<br/>电话：(010)59928888<br/>简介：百度大厦位于北京市海淀区西二旗地铁站附近，为百度公司综合研发及办公总部。' +
+            '</div>';
+
+    //创建检索信息窗口对象
+    var searchInfoWindow = null;
+    searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
+        title  : "百度大厦",      //标题
+        width  : 290,             //宽度
+        height : 105,              //高度
+        panel  : "panel",         //检索结果面板
+        enableAutoPan : true,     //自动平移
+        searchTypes   :[
+            BMAPLIB_TAB_SEARCH,   //周边检索
+            BMAPLIB_TAB_TO_HERE,  //到这里去
+            BMAPLIB_TAB_FROM_HERE //从这里出发
+        ]
+    });
+    var marker = new BMap.Marker(poi); //创建marker对象
+    marker.enableDragging(); //marker可拖拽
+    marker.addEventListener("click", function(e){
+        searchInfoWindow.open(marker);
+    })
+    map.addOverlay(marker); //在地图中添加marker
+</script>
+</html>

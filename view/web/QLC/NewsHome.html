@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新闻显示</title>
+    <link href="../../lib/SmaLove/web/NewsHome.css" rel="stylesheet" />
+    <link href="../../lib/bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet"/>
+    
+    <link href="../../lib/public_style.css" rel="stylesheet" />
+    <script src="../../lib/jquery-2.2.3.js"></script>
+    <script src="../../lib/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+</head>
+<style>
+    .main_button {
+        background: #14BF7D;
+    }
+    .main_button:hover {
+        background: #109360;
+    }
+</style>
+<body>
+<!--头部-->
+<header style="height: 30px;background: #505d4b">头部</header>
+<div id="view">
+    <div style="margin-top: 20px">
+        <div class="pull-left">
+            <img src="../images/zjtb.png">
+        </div>
+
+        <!--头部 290 x 60 广告位-->
+        <div class="pull-right">
+            <a href="#"><img src="../images/290x60gg.png"></a>
+        </div>
+
+        <!--头部搜索框-->
+        <div class="pull-right" style="width: 500px;margin-right: 20px">
+            <div class="input-group">
+                <input type="text" style="border-radius: 0px" class="form-control" placeholder="请输入关键词搜索">
+                <span class="input-group-btn ">
+                    <button class="btn btn-default" type="button" style="background: #00a666;color: #FFFFFF;width: 70px;border-radius: 0">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </span>
+            </div><!-- /input-group -->
+            <div style="margin-top: 10px">
+                <a href="#">自驾e族</a>&nbsp;&nbsp;&nbsp;
+                <a href="#">自驾游</a>&nbsp;&nbsp;&nbsp;
+                <a href="#">版主大会</a>&nbsp;&nbsp;&nbsp;
+                <a href="#">大型活动</a>
+            </div>
+        </div><!-- /.col-lg-6 -->
+    </div>
+
+<!--1190 x 80广告位-->
+<div class="left">
+    <div class="left">
+        <!-- <p>导航栏</p> -->
+    </div>
+    <a href="#"><img style="width: 1200px;margin-top: 20px;" src="../images/cguangg.png"></a>
+</div>
+
+
+
+    <div id="view" style="margin-top: 20px;">
+        <div>当前位置 : <span>首页 > 新闻</span></div>
+            <div class="top" style="margin-top: 15px;">
+                <p class="title"><b>热门专题</b></p>
+            </div>
+        <div id="lunkuo">
+            <!--中间自适应-->
+            <div id="center">
+                <!--头部-->
+                <div class="header_div">
+                    <div class="header_margin">
+                        <h2 class="oneTitle">自驾e族人物专访：“海之港湾” -最美的风景在路上</h2>
+                        <span class="header_www">自驾e族官网 www.fbtrip.cn 2016-07-16</span>
+                        <span>　来源：自驾e族原创</span>
+                        <span>　访问：512次</span>
+                    </div>
+                    <div class="header_left">
+                        <img src="../images/分享.png" class="header_fenxiang"/>
+                        <a href=""><img src="../images/新浪.png" class="header_img"/></a>
+                        <a href=""><img src="../images/微信.png" class="header_img"/></a>
+                        <a href=""><img src="../images/qq.png" class="header_img"/></a>
+                        <a href=""><img src="../images/QQ空间.png" class="header_img"/></a>
+                        <a href=""><img src="../images/腾讯微博.png" class="header_img"/></a>
+
+                        <img src="../images/竖线.png" class="header_shuxian"/>
+                    </div>
+                    <div class="header_maodian">
+                        <span class="header_maodian_text">39</span><span> 评论</span>
+                        <!--a标签链接是锚点-->
+                        <a href="#1F"><img src="../images/评论.png" class="header_tubiao"/></a>
+                    </div>
+
+                    <div class="header_author">
+                        <span class="author_font">作者：</span>
+                        <span class="author_headportrait"><a href=""><img src="../images/微信.png" class="headportrait_width" /></a><a href="" class="author_name"> 新闻资讯</a></span>
+                        <button class="btn btn-default" style="	border: 1px solid #00A666;  line-height: 10px;  text-indent: -0.6em;  margin-top: -5px;  color: #00A666;  width: 50px;  height: 23px;
+">+关注</button>
+                    </div>
+
+                    <hr class="header_hr"/>
+                </div>
+
+                <!--广告-->
+                <div class="advertisement_margin">
+                    <img src="../images/cguangg.png" class="advertisement_img" />
+                </div>
+
+                <!--正文加图片-->
+                <div class="text">
+                    <!--这个div用来放置图片-->
+                    <div class="text_img">
+                        <img src="../images/suc1.png" />
+                        <img src="../images/suc2.png" style="width: 901px; margin-top: 20px;"/>
+                    </div>
+
+                    <!--这个div用来放置文字-->
+                    <div class="text_font">
+                        <p class="text_text">本人ID海之港湾，在自驾的路上，伴我已近十二年。</p>
+                        <p class="text_text">2005年 加入天津市体育局汽车摩托车运动协会，从此，开始了我人生中慢慢的自驾之旅，这张中国地图上的红色实线，是我从南到北，从东到西的自驾印迹。</p>
+                        <p class="text_text">2009年 加入橡树摄影俱乐部，使自己的自驾之旅，又多了一项摄像的乐趣。</p>
+                        <p class="text_text">2011年又加入了越野e族天津大队，沙漠，草原，戈壁，山川，驰骋在其中，自驾之旅又多了新的体验。</p>
+                        <p class="text_text">2015年 学习并考取了无人机机长证，自驾之旅又有了新的视角。</p>
+                        <p class="text_text">2016年 经天津总版主大海介绍，光荣的加入了自驾e族的大家庭，并由大海版主推荐，承蒙几位全国总版的抬爱，在自驾e族飞行军板块就任版主，做该版块的服务和管理工作。</p>
+                    </div>
+
+                    <div class="text_img">
+                        <img src="../images/suc3.png" style="width: 901px; margin-top: 20px;"/>
+                    </div>
+                </div>
+
+                <!--表态- - -->
+                <div class="pinglun_margin">
+                    <p>刚表过态的朋友（15人）</p>
+                    <!--头像-->
+                    <div>
+                        <a href=""><img src="../images/头像.png" class="pinglun_img" /></a>
+                        <a href=""><img src="../images/头像.png" class="pinglun_img" /></a>
+                        <a href=""><img src="../images/头像.png" class="pinglun_img" /></a>
+                        <a href=""><img src="../images/头像.png" class="pinglun_img" /></a>
+                        <a href=""><img src="../images/头像.png" class="pinglun_img" /></a>
+                        <a href=""><img src="../images/更多.png" class="pinglun_gengduo" /></a>
+                    </div>
+                    <!--分享到-->
+                    <div class="fenxiang_margin">
+                        <div>
+                            <span>分享到 : </span>
+                            <a href="" ><img src="../images/s腾讯微博.png" class="fenxiang_img" /></a>
+                            <a href="" ><img src="../images/sqq空间.png" class="fenxiang_img" /></a>
+                            <a href="" ><img src="../images/sQQ.png" class="fenxiang_img" /></a>
+                            <a href="" ><img src="../images/s新浪.png" class="fenxiang_img" /></a>
+                            <a href="" ><img src="../images/s微信.png" class="fenxiang_img" /></a>
+                        </div>
+                        <!--赞和收藏-->
+                        <div class="zan_margin">
+                            <!--一个button是一个按钮-->
+                            <button class="btn btn-default" style="line-height: 10px; vertical-align: middle; background: #FFFFFF; border: 1px solid #42B280; margin-right: 10px;">
+                                <span class="glyphicon glyphicon-thumbs-up zan_tubiao"></span>
+                                <span class="zan_text">赞</span>
+                                <span class="zan_number"><b>5</b></span>
+                            </button>
+
+                            <button class="btn btn-default" style="width: 90px;  height: 30px;  line-height: 10px;  background: #FFFFFF;  border: 1px solid #42B280;">
+                                <span class="glyphicon glyphicon-star-empty shoucang_tubiao"></span
+                                ><span class="shoucang_text">收藏本文</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div style="height: 45px;"></div>
+            </div>
+        </div>
+        <!--评论区域-->
+        <div class="comment_margin">
+            <!--id是用来锚点定位的-->
+            <div class="comment_maodian" id="1F" >
+                <span class="glyphicon glyphicon-comment" style="color: #19BF7F;"></span><span style="font-size: 18px;"> 热门评论</span>
+                <hr class="comment_hr"/>
+                <p class="comment_tishi">温馨提示 : 留言中请不要而已攻击国家，其它用户及工作人员，不要发布任何广告性质的留言。</p>
+
+                <textarea class="form-control" rows="8" style="margin-top: 20px;" placeholder="请写下您的留言..."></textarea>
+
+                <div class="comment_btn">
+                    <a class="btn btn-block main_button" style="border: 1px solid #14BF7D;  width: 150px;  height: 40px;  line-height: 27px;  color: #FFFFFF;">立即评论</a>
+                </div>
+                <div class="comment_zhuce">
+                    <span>还没有账号？点此</span><a href="">注册</a>
+                </div>
+                <!--留言显示-->
+                <div style="margin-top: 40px;">
+                    <div class="display_margin">
+                        <img src="../images/头像.png" class="display_touxiang"/>
+                        <div class="display_text">
+                            <span>kenn3646</span><span>2016/03/22</span>
+                            <p>不错不错！</p>
+                        </div>
+                    </div>
+                    <hr class="display_hr"/>
+
+                    <div class="display_margin">
+                        <img src="../images/头像.png" class="display_touxiang"/>
+                        <div class="display_text">
+                            <span>kenn3646</span><span>2016/03/22</span>
+                            <p>不错不错！</p>
+                        </div>
+                    </div>
+                    <hr class="display_hr"/>
+
+                    <div class="display_margin">
+                        <img src="../images/头像.png" class="display_touxiang"/>
+                        <div class="display_text">
+                            <span>kenn3646</span><span>2016/03/22</span>
+                            <p>不错不错！</p>
+                        </div>
+                    </div>
+                    <hr class="display_hr"/>
+
+                    <div class="display_margin">
+                        <img src="../images/头像.png" class="display_touxiang"/>
+                        <div class="display_text">
+                            <span>kenn3646</span><span>2016/03/22</span>
+                            <p>不错不错！</p>
+                        </div>
+                    </div>
+                    <hr class="display_hr"/>
+
+                    <div class="display_margin">
+                        <img src="../images/头像.png" class="display_touxiang"/>
+                        <div class="display_text">
+                            <span>kenn3646</span><span>2016/03/22</span>
+                            <p>不错不错！</p>
+                        </div>
+                    </div>
+                    <hr class="display_hr"/>
+                </div>
+
+                <div class="load_margin">
+                    <a href="" class="load_text">加载更多 > ></a>
+                </div>
+            </div>
+        </div>
+
+        <!--广告-->
+        <div class="advertisement_margin">
+            <img src="../images/cguangg.png" style="width: 1200px; height: 80px;" />
+        </div>
+
+        <!--最新新闻等等-->
+        <div class="journalism_margin">
+            <div class="journalism_padding">
+                <div class="journalism_top">
+                    <p class="journalism_title"><b>最新资讯</b></p>
+                </div>
+                <ul class="journalism_ul">
+                    <li class="journalism_li">
+                        <img src="../images/圆点.png" class="journalism_img"/>
+                        <a href="" class="journalism_href">祝全体会员端午节快乐</a>
+                    </li>
+                    <li class="journalism_li">
+                        <img src="../images/圆点.png" class="journalism_img"/>
+                        <a href="" class="journalism_href">自驾e族任务专访： “海之港湾” --最美丽的</a>
+                    </li>
+                    <li class="journalism_li">
+                        <img src="../images/圆点.png" class="journalism_img"/>
+                        <a href="" class="journalism_href">自驾e族新会员卡官方发行</a>
+                    </li>
+                    <li class="journalism_li">
+                        <img src="../images/圆点.png" class="journalism_img"/>
+                        <a href="" class="journalism_href">自驾e族任务专访： 浙江斧头 将越野进行到底</a>
+                    </li>
+                    <li class="journalism_li">
+                        <img src="../images/圆点.png" class="journalism_img"/>
+                        <a href="" class="journalism_href">庆祝自驾e族成立2周年，感恩所有会员的陪伴</a>
+                    </li>
+                    <li class="journalism_li">
+                        <img src="../images/圆点.png" class="journalism_img"/>
+                        <a href="" class="journalism_href">自驾e族走进2016年环塔拉力赛</a>
+                    </li>
+                    <li class="journalism_li">
+                        <img src="../images/圆点.png" class="journalism_img"/>
+                        <a href="" class="journalism_href">自驾e族走进2016年环塔拉力赛</a>自驾e族手机版上线啦</a>
+                    </li>
+                    <li class="journalism_li">
+                        <img src="../images/圆点.png" class="journalism_img"/>
+                        <a href="" class="journalism_href">自驾e族走进2016年环塔拉力赛</a>自驾e族2015版主大会 相聚西安</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="recommend_margin">
+                <div class="recommend_top">
+                    <p class="recommend_title"><b>推荐新闻</b></p>
+                </div>
+                <div class="recommend_img_div">
+                    <div>
+                        <div class="recommend_img_left">
+                            <a href="" style="color: #080808; font-size: 12px; text-decoration:none;"><img src="../images/tuijianxinwen.png" />
+                            <p style="line-height: 30px; text-indent: 0.5em; width: 133px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">绿光摇曳，乌孙公主的什么什么</p></a>
+                        </div>
+                        <div class="recommend_img_left">
+                            <a href="" style="color: #080808; font-size: 12px; text-decoration:none;"><img src="../images/tuijianxinwen.png" />
+                            <p style="line-height: 30px; text-indent: 0.5em; width: 133px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">绿光摇曳，乌孙公主的什么什么</p></a>
+                        </div>
+                        <div>
+                            <a href="" style="color: #080808; font-size: 12px; text-decoration:none;"><img src="../images/tuijianxinwen.png" />
+                            <p style="line-height: 30px; text-indent: 0.5em; width: 133px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">绿光摇曳，乌孙公主的什么什么</p></a>
+                        </div>
+                    </div>
+
+                    <div style="clear:both; margin-top: -20px;">
+                        <div style="float: left; margin-right: 16px">
+                            <a href="" style="color: #080808; font-size: 12px; text-decoration:none;"><img src="../images/tuijianxinwen.png" />
+                            <p style="line-height: 30px; text-indent: 0.5em; width: 133px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">绿光摇曳，乌孙公主的什么什么</p></a>
+                        </div>
+                        <div style="float: left; margin-right: 16px">
+                            <a href="" style="color: #080808; font-size: 12px; text-decoration:none;"><img src="../images/tuijianxinwen.png" />
+                            <p style="line-height: 30px; text-indent: 0.5em; width: 133px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">绿光摇曳，乌孙公主的什么什么</p></a>
+                        </div>
+                        <div style="float: left;">
+                            <a href="" style="color: #080808; font-size: 12px; text-decoration:none;"><img src="../images/tuijianxinwen.png" />
+                            <p style="line-height: 30px; text-indent: 0.5em; width: 133px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">绿光摇曳，乌孙公主的什么什么</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="width: 290px; height: 100%; border: 1px solid #E6F1ED; border-top: 2px solid #78B09F; float: left;">
+                <div style="background: #F8FAF9; height: 33px">
+                    <p style="line-height: 35px; font-size: 14px; color: #666867; text-indent: 0.8em;"><b>热门排行</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div style="clear:both; height: 35px;"></div>
+
+    <footer>
+        <div class="a_div">
+            <img src="../images/a.jpg"/>
+            <a href="">黑蝙蝠车队</a>
+            <a href="">爱卡汽车</a>
+            <a href="">汽车之家</a>
+            <a href="">中国越野</a>
+            <a href="">爱车一族</a>
+            <a href="">纵横天下</a>
+            <a href="">河北赛车网</a>
+        </div>
+        <div class="bq_div">
+            <img src="../images/app.png" style="margin-right: 10px;" />
+            <img src="../images/weixin.png" style="margin-right: 10px;" />
+            <img src="../images/beian.png" style="margin-right: 10px;" />
+            <img src="../images/gaba.png" />
+        </div>
+        <div class="www">
+            <p class="p1">中国大型的自驾游主题平台。想自驾，来自驾e族！网址：www.fbtrip.cn,官方微信号：fbtrip-cn</p>
+            <p class="p2">版权所有：自驾e族 © 2014-2016 www.fbtrip.cn</p>
+        </div>
+    </footer>
+</body>
+</html>

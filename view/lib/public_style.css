@@ -1,0 +1,32 @@
+*{margin: 0; padding: 0;}
+header,nav{height: 50px;}
+body{font-family:'Microsoft yahei', 'STHeiTi';}
+
+/*全局宽度1200*/
+#view{width: 1200px; margin: 0 auto;}
+
+ul,li{list-style: none;}
+/*a:link{*/
+    /*text-decoration:none;*/
+/*}*/
+/*a:visited{*/
+    /*text-decoration:none;*/
+/*}*/
+a:hover{
+    text-decoration:none;
+}
+/*a:active{*/
+    /*text-decoration:none;*/
+/*}*/
+/*外链*/
+footer{clear:both; width: 100%; height: 268px; margin: auto; background: #F7F7F7; border-top: 3px solid #00A666;}
+footer .a_div{width: 715px; margin: 22px auto 0;}
+footer .a_div img{width: 30px; height: 30px; border-radius: 30px; margin-left: 40px; margin-right: 10px;}
+footer .a_div a{margin-right: 23px; color: #7E7E7E;}
+
+/*版权*/
+footer .bq_div{width: 910px; margin: 22px auto 0;}
+footer .bq_div .img {border: 1px solid #DCDCDC}
+footer .www {width:800px; margin: 22px auto 0; text-align: center;}
+footer .www .p1{color: #7E7E7E; font-size: 15px;}
+footer .www .p2{text-align: center; color: #B5B5B5; font-size: 15px;}

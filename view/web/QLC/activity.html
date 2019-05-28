@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>活动</title>
+    <link href="../../lib/bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet"/>
+    <link href="../../lib/SmaLove/web/activityC.css" rel="stylesheet" />
+    <link href="../../lib/public_style.css" rel="stylesheet" />
+    <script src="../../lib/jquery-2.2.3.js"></script>
+    <script src="../../lib/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+</head>
+<body>
+<!--头部-->
+<header style="height: 30px;background: #505d4b">头部</header>
+<div id="view">
+    <div style="margin-top: 20px">
+        <div class="pull-left">
+            <img src="../images/zjtb.png">
+        </div>
+
+        <!--头部 290 x 60 广告位-->
+        <div class="pull-right">
+            <a href="#"><img src="../images/290x60gg.png"></a>
+        </div>
+
+        <!--头部搜索框-->
+        <div class="pull-right" style="width: 500px;margin-right: 20px">
+            <div class="input-group">
+                <input type="text" style="border-radius: 0px" class="form-control" placeholder="请输入关键词搜索">
+                <span class="input-group-btn ">
+                    <button class="btn btn-default" type="button" style="background: #00a666;color: #FFFFFF;width: 70px;border-radius: 0">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </span>
+            </div><!-- /input-group -->
+            <div style="margin-top: 10px">
+                <a href="#">自驾e族</a>&nbsp;&nbsp;&nbsp;
+                <a href="#">自驾游</a>&nbsp;&nbsp;&nbsp;
+                <a href="#">版主大会</a>&nbsp;&nbsp;&nbsp;
+                <a href="#">大型活动</a>
+            </div>
+        </div><!-- /.col-lg-6 -->
+    </div>
+
+<!--1190 x 80广告位-->
+<div class="left">
+    <div class="left">
+        <!-- <p>导航栏</p> -->
+    </div>
+    <a href="#"><img style="width: 1200px;" src="../images/cguangg.png"></a>
+</div>
+<!--按条件筛选框-->
+<div class="left">
+    <div id="screenframe">
+        <div class="top">
+            <p class="title">按条件筛选框</p>
+        </div>
+        <form style="padding: 0 20px">
+            <div class="SEdiv1">
+                <span>按关键字： </span><input  >
+            </div>
+            <div class="SEdiv1">
+                <span>按出发地：</span>
+                <select>
+                    <option>请选择省份</option>
+                    <option>安徽</option>
+                    <option>广东</option>
+                    <option>广西</option>
+                    <option>浙江</option>
+                </select>
+                <select style="margin-left: 10px">
+                    <option>请选择城市</option>
+                    <option>安徽</option>
+                    <option>广东</option>
+                    <option>广西</option>
+                    <option>浙江</option>
+                </select>
+                <select style="margin-left: 10px">
+                    <option>请选择地区</option>
+                    <option>安徽</option>
+                    <option>广东</option>
+                    <option>广西</option>
+                    <option>浙江</option>
+                </select>
+            </div>
+            <div class="SEdiv1">
+                <span>按到达地：</span>
+                <select>
+                    <option>请选择省份</option>
+                    <option>安徽</option>
+                    <option>广东</option>
+                    <option>广西</option>
+                    <option>浙江</option>
+                </select>
+                <select style="margin-left: 10px">
+                    <option>请选择城市</option>
+                    <option>安徽</option>
+                    <option>广东</option>
+                    <option>广西</option>
+                    <option>浙江</option>
+                </select>
+                <select style="margin-left: 10px">
+                    <option>请选择地区</option>
+                    <option>安徽</option>
+                    <option>广东</option>
+                    <option>广西</option>
+                    <option>浙江</option>
+                </select>
+            </div>
+            <div class="SEdiv2">
+                <span>时间区间：</span>
+                    <button type="button" class="btn btn-default">不限</button>
+                    <button type="button" class="btn btn-default">1月内</button>
+                    <button type="button" class="btn btn-default">1-2月内</button>
+                    <button type="button" class="btn btn-default">3-4月内</button>
+                    <button type="button" class="btn btn-default">5个月以上</button>
+                    <button type="button" class="btn btn-default">固定线路</button>
+            </div>
+            <div  class="SEdiv2">
+                <span>人均费用：</span>
+                    <button type="button" class="btn btn-default">不限</button>
+                    <button type="button" class="btn btn-default">1-999</button>
+                    <button type="button" class="btn btn-default">1000-5999</button>
+                    <button type="button" class="btn btn-default">6000以上</button>
+            </div>
+            <div class="SEdiv3">
+                <button>立即搜索</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<!--右侧 发起活动/我的活动按钮-->
+<div class="right">
+    <button class="MYbtn1"><span class="glyphicon glyphicon-calendar"></span>&nbsp;&nbsp; 发起活动</button><br>
+    <button class="MYbtn2"><span class="glyphicon glyphicon-camera"></span>&nbsp;&nbsp; 我的活动</button>
+</div>
+
+<!--右侧 290*335广告    -->
+<div class="right">
+    <a><img src="../images/xk广告.png"> </a>
+</div>
+
+    <!--活动列表-->
+    <div class="left">
+        <div id="activitylist">
+            <div class="top">
+                <p class="title">活动列表</p>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <div class="LId1">
+                            <a><img src="../images/hdlb235x175.png"></a>
+                        </div>
+                        <div class="LId2">
+                            <p>穿越世界第一拐·自驾68道拐AA召集活动</p>
+                            <span class="LIbody">"这是一条神奇的天路。。。。。。"这不是在青藏高原，而是在中原，巍巍太行也有一条天路。这条建设在太上山脊上的孤岛，经过重新修整已经和古路不太一样了，除了要翻越崇山峻岭，还有当地淳朴的小村庄和当地几乎接近古代生活方式的人们。</span><br>
+                            <div class="HDlabel">
+                                <span class="stick">置顶</span>
+                                <span class="signuping">活动报名中</span>
+                            </div>
+                            <div class="LId3">
+                                <span class="glyphicon glyphicon-map-marker">云南-西藏</span>&nbsp;&nbsp;
+                                <span>800公里</span>&nbsp;&nbsp;
+                                <a><img src="../images/小头像方.png"> 无刀</a>
+                                <p>￥<b>100</b>起</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="LId1">
+                            <a><img src="../images/hdlb235x175.png"></a>
+                        </div>
+                        <div class="LId2">
+                            <p>穿越世界第一拐·自驾68道拐AA召集活动</p>
+                            <span class="LIbody">"这是一条神奇的天路。。。。。。"这不是在青藏高原，而是在中原，巍巍太行也有一条天路。这条建设在太上山脊上的孤岛，经过重新修整已经和古路不太一样了，除了要翻越崇山峻岭，还有当地淳朴的小村庄和当地几乎接近古代生活方式的人们。</span><br>
+                            <div class="HDlabel">
+                                <span class="stick">置顶</span>
+                                <span class="signuping">活动报名中</span>
+                            </div>
+                            <div class="LId3">
+                                <span class="glyphicon glyphicon-map-marker">云南-西藏</span>&nbsp;&nbsp;
+                                <span>800公里</span>&nbsp;&nbsp;
+                                <a><img src="../images/小头像方.png"> 无刀</a>
+                                <p>￥<b>100</b>起</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="LId1">
+                            <a><img src="../images/hdlb235x175.png"></a>
+                        </div>
+                        <div class="LId2">
+                            <p>穿越世界第一拐·自驾68道拐AA召集活动</p>
+                            <span class="LIbody">"这是一条神奇的天路。。。。。。"这不是在青藏高原，而是在中原，巍巍太行也有一条天路。这条建设在太上山脊上的孤岛，经过重新修整已经和古路不太一样了，除了要翻越崇山峻岭，还有当地淳朴的小村庄和当地几乎接近古代生活方式的人们。</span><br>
+                            <div class="HDlabel">
+                                <span class="recommend">推荐</span>
+                                <span class="signupstop">报名已截止</span>
+                            </div>
+                            <div class="LId3">
+                                <span class="glyphicon glyphicon-map-marker">云南-西藏</span>&nbsp;&nbsp;
+                                <span>800公里</span>&nbsp;&nbsp;
+                                <a><img src="../images/小头像方.png"> 无刀</a>
+                                <p>￥<b>100</b>起</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="LId1">
+                            <a><img src="../images/hdlb235x175.png"></a>
+                        </div>
+                        <div class="LId2">
+                            <p>穿越世界第一拐·自驾68道拐AA召集活动</p>
+                            <span class="LIbody">"这是一条神奇的天路。。。。。。"这不是在青藏高原，而是在中原，巍巍太行也有一条天路。这条建设在太上山脊上的孤岛，经过重新修整已经和古路不太一样了，除了要翻越崇山峻岭，还有当地淳朴的小村庄和当地几乎接近古代生活方式的人们。</span><br>
+                            <div class="HDlabel">
+                                <span class="signupstop">报名已截止</span>
+                            </div>
+                            <div class="LId3">
+                                <span class="glyphicon glyphicon-map-marker">云南-西藏</span>&nbsp;&nbsp;
+                                <span>800公里</span>&nbsp;&nbsp;
+                                <a><img src="../images/小头像方.png"> 无刀</a>
+                                <p>￥<b>100</b>起</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="LId1">
+                            <a><img src="../images/hdlb235x175.png"></a>
+                        </div >
+                        <div class="LId2">
+                            <p>穿越世界第一拐·自驾68道拐AA召集活动</p>
+                            <span class="LIbody">"这是一条神奇的天路。。。。。。"这不是在青藏高原，而是在中原，巍巍太行也有一条天路。这条建设在太上山脊上的孤岛，经过重新修整已经和古路不太一样了，除了要翻越崇山峻岭，还有当地淳朴的小村庄和当地几乎接近古代生活方式的人们。</span><br>
+                            <div class="HDlabel">
+                                <span class="recommend">推荐</span>
+                                <span class="signuping">活动报名中</span>
+                            </div>
+                            <div class="LId3">
+                                <span class="glyphicon glyphicon-map-marker">云南-西藏</span>&nbsp;&nbsp;
+                                <span>800公里</span>&nbsp;&nbsp;
+                                <a><img src="../images/小头像方.png"> 无刀</a>
+                                <p>￥<b>100</b>起</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="LId1">
+                            <a><img src="../images/hdlb235x175.png"></a>
+                        </div>
+                        <div class="LId2">
+                            <p>穿越世界第一拐·自驾68道拐AA召集活动</p>
+                            <span class="LIbody">"这是一条神奇的天路。。。。。。"这不是在青藏高原，而是在中原，巍巍太行也有一条天路。这条建设在太上山脊上的孤岛，经过重新修整已经和古路不太一样了，除了要翻越崇山峻岭，还有当地淳朴的小村庄和当地几乎接近古代生活方式的人们。</span><br>
+                            <div class="HDlabel">
+                                <span class="stick">置顶</span>
+                                <span class="signupstop">活动已取消</span>
+                            </div>
+                            <div class="LId3">
+                                <span class="glyphicon glyphicon-map-marker">云南-西藏</span>&nbsp;&nbsp;
+                                <span>800公里</span>&nbsp;&nbsp;
+                                <a><img src="../images/小头像方.png"> 无刀</a>
+                                <p>￥<b>100</b>起</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!--<div class="Loadmore"><button> 加载更多>></button></div>-->
+                <button class="Loadmore">加载更多>></button>
+            </div>
+        </div>
+    </div>
+    <!--推荐活动-->
+    <div class="right">
+        <div id="TJactivities">
+            <div class="side">
+                <div class="top">
+                    <span class="title"><b>推荐活动</b></span>
+                </div>
+                <ul>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">自驾e族 衡水分会 3月20日 星期天有一次狂欢</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">北极熊王国·斯瓦尔巴群岛极地探索邮轮啦啦啦</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">云南总会：千佛古都·琅勃拉邦·激情万荣啦啦啦！</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">探亨泰风情·神秘台北·自驾4星品质七日游啦啦啦啦</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">德天瀑布·旧州古镇·明仕田园·东兴边贸啦啦啦</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">30--31号自驾龙庆峡冰灯+柳沟豆腐宴啦啦啦</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">自驾e族 衡水分会 3月20日 星期天有一次狂欢</a>
+                    </li>
+                    <li>
+                        <img src="../images/圆点.png">
+                        <a href="">北极熊王国·斯瓦尔巴群岛极地探索邮轮啦啦啦</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div style="clear:both; height: 75px;"></div>
+
+<footer>
+    <div class="a_div">
+        <img src="../images/a.jpg" style="width: 30px; height: 30px; border-radius: 30px; margin-left: 40px; margin-right: 10px;"/>
+        <a href="">黑蝙蝠车队</a>
+        <a href="">爱卡汽车</a>
+        <a href="">汽车之家</a>
+        <a href="">中国越野</a>
+        <a href="">爱车一族</a>
+        <a href="">纵横天下</a>
+        <a href="">河北赛车网</a>
+    </div>
+    <div class="bq_div" style="width: 910px; margin: 22px auto 0;">
+        <img src="../images/app.png" style="margin-right: 10px;" />
+        <img src="../images/weixin.png" style="margin-right: 10px;" />
+        <img src="../images/beian.png" style="margin-right: 10px;" />
+        <img src="../images/gaba.png" />
+    </div>
+    <div style="width: 600px; margin: 22px auto 0;">
+        <p style="color: #7E7E7E;">中国大型的自驾游主题平台。想自驾，来自驾e族！网址：www.fbtrip.cn,官方微信号：fbtrip-cn</p>
+        <p style="text-align: center; color: #B5B5B5;">版权所有：自驾e族 © 2014-2016 www.fbtrip.cn</p>
+    </div>
+</footer>
+</body>
+</html>
